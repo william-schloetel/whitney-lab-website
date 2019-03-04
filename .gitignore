@@ -1,2 +1,5 @@
 #ignore .DS_Store
 .DS_Store
+
+#ignore .idea from WebStorm IDE
+.idea
