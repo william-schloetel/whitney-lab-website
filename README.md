@@ -1,2 +1,3 @@
-# whitney_lab_website
+# Whitney Lab Website
 Working repository for Whitney Lab website
+
