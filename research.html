@@ -19,7 +19,7 @@
 				<a href="index.html">
 					<img width="231.65" height="40" src="./img/whitney_lab_logo1.png">
 				</a>
-			</div> 
+			</div>
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
@@ -31,7 +31,7 @@
 					<li><a id="demo-2" href="#">
 								<input type="search" placeholder="Search">
 							</a>
-					</li>	
+					</li>
 				</ul>
 			</nav>
 		</div>
@@ -40,36 +40,62 @@
 
 
     <div class="contentBox">
-        <section class="researchInfo">
-            <a href="Perceptual_Localization.html"> <h1>Localization</h1> </a>
-            <a href="Perceptual_Localization.html"> <img class="floatLeftHalf" src="./img/research/clutter.jpg"> </a>
-            <p>Knowing where things are is crucially important. You have to know where a coffee cup is before you can grasp it, 
-            or where other people are heading so you can avoid bumping into them. <em>The positions of objects are fundamental to our perception of the world.</em>
-            Click <a href="Perceptual_Localization.html"> here </a> to explore our research on perceptual localization.
-            </p>
-        </section>
-        
-        <section class="researchInfo">
-        	<a href="Recognition.html"> <h1>Recognition</h1> </a> 
-        	<a href="Recognition.html"> <img class="floatRightHalf" src="./img/research/crowd.jpg"> </a> 
-        	<p> A second fundamental purpose of perception is the recognition of objects and scenes. Recognition is a significant
-        	challenge for the visual system because natural scenes are cluttered and crowded. Our lab studies two sides of this challenge:
-        	how clutter impairs object recognition, and how the clutter itself is perceived as an ensemble.
-        	Click <a href="Recognition.html"> here</a> to explore our research on crowding and ensemble and summary statistical perception.
-        	</p>
-        </section>
-        
-        <section class="researchInfo">
-        	<a href="Stability.html"> <h1>Stability</h1> </a> 
-        	<a href="Stability.html"> <img class="floatLeftHalf" src="./img/research/stability.jpg" height="300"> </a> 
-        	<p>The third fundamental challenge of perception is stability - perceiving objects and scenes as having stable, continuous
-        	identities despite changes in lighting, viewpoint, discontinuities, and noise. Our recent work demonstrates the existence
-        	of a continuity field, a mechanism that promotes the perception of object stability.
-        	Click <a href="Stability.html"> here </a> to explore our research on perceptual stability and the continuity field.
-        	</p>
-        </section>
-            
-              
+			<div class="researchInfo">
+				<div class="researchText">
+					<a href = "Perceptual_Localization.html">
+						<h1> Localization </h1>
+						<br />
+						<p> Knowing where things are is crucially important. You have to know where a coffee cup is before you can grasp it,
+            or where other people are heading so you can avoid bumping into them. The positions of objects are fundamental to our perception of the world. </p>
+					</a>
+				</div>
+				<div class="researchImage">
+					<a href = "Perceptual_Localization.html">
+						<img class = "floatLeftHalf" src="./img/reaching.jpg" onmouseout="this.style.webkitFilter='brightness(100%)'"
+            onmouseover="this.style.webkitFilter='brightness(75%)'"/>
+						<!-- <p> How do we determine where objects are in the world? </p> -->
+					</a>
+				</div>
+			</div>
+
+			<div class="researchInfo">
+				<div class="researchImage">
+					<a href = "Recognition.html">
+						<img class = "floatLeftHalf" src="./img/recognition.jpg" onmouseout="this.style.webkitFilter='brightness(100%)'"
+            onmouseover="this.style.webkitFilter='brightness(75%)'"/>
+
+						<!-- <p> How do we determine where objects are in the world? </p> -->
+					</a>
+				</div>
+				<div class="researchText">
+					<a href = "Recognition.html">
+						<h1> Recognition </h1>
+						<br />
+						<p>  A second fundamental purpose of perception is the recognition of objects and scenes. Recognition is a significant
+	        	challenge for the visual system because natural scenes are cluttered and crowded. Our lab studies two sides of this challenge:
+	        	how clutter impairs object recognition, and how the clutter itself is perceived as an ensemble. </p>
+					</a>
+				</div>
+			</div>
+
+			<div class="researchInfo">
+				<div class="researchText">
+					<a href = "Stability.html">
+						<h1> Stability </h1>
+						<br />
+						<p> The third fundamental challenge of perception is stability - perceiving objects and scenes as having stable, continuous
+	        	identities despite changes in lighting, viewpoint, discontinuities, and noise. Our recent work demonstrates the existence
+	        	of a continuity field, a mechanism that promotes the perception of object stability. </p>
+					</a>
+				</div>
+				<div class="researchImage">
+					<a href = "Stability.html">
+						<img class = "floatLeftHalf" src="./img/stability.jpg" onmouseout="this.style.webkitFilter='brightness(100%)'"
+            onmouseover="this.style.webkitFilter='brightness(75%)'"/>
+						<!-- <p> How do we determine where objects are in the world? </p> -->
+					</a>
+				</div>
+			</div>
     </div> <!--content box-->
 
 
@@ -78,7 +104,7 @@
 			<a href="http://neuroscience.berkeley.edu/">
 				<img id="neuro" width="310" height="180" src="./img/footer/helen_wills.png">
 			</a>
-		
+
 			<div id="labels">
 				<!-- <a href="https://www.ocf.berkeley.edu/">
 					<img id="ocf" src="./img/footer/ocf_logo.png">
@@ -94,16 +120,16 @@
 				<p>University of California</p>
 				<p>Berkeley, CA 94720</p>
 				<p id="contact">Contact Us</p>
-				<p id="phone">Lab phone: 510-984-3033</p>			
+				<p id="phone">Lab phone: 510-984-3033</p>
 			</div>
 		</div>
 
 		<div class="copyright">
 			<div>
 				<p>Whitney Laboratory, Copyright &copy; 2018</p>
-			</div>			
+			</div>
 		</div>
-	
+
 	</footer>
 
 
@@ -113,7 +139,7 @@
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-21655716-1']);
       _gaq.push(['_trackPageview']);
-    
+
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
@@ -121,7 +147,20 @@
       })();
     </script>
     <!-- End Google Analytics -->
+		<!-- <script type="text/javascript">
+		let images = document.querySelectorAll(".researchImage");
+		images.forEach(img => {
+			img.addEventListener('mouseenter', darken);
+			img.addEventListener('mouseleave', lighten);
+			function darken() {
+
+			}
+			function lighten() {
+
+			}
+		})
+
+    </script> -->
 
 </body>
 </html>
-	
