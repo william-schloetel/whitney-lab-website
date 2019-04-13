@@ -372,12 +372,12 @@ header .highlight, header .current a{
 	flex-direction: column;
 }
 
-.floatRightHalf {
+/* .floatRightHalf {
 	width: auto;
 	max-width: 300px;
 	height: auto;
 	max-height: 300px;
-}
+} */
 
 .researchInfo {
 	background-color: #E5F3F2;
@@ -386,25 +386,40 @@ header .highlight, header .current a{
 	margin: 1%;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: space-between;
 
 	overflow: hidden;
   margin-left: auto;
   margin-right: auto;
   width: 95%;
+	height: auto;
+	max-height: 400px;
+	/* height: 600px; */
 }
 
 .researchText {
 	text-align: center;
 	margin: auto;
-	width: auto;
+	width: 50%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.researchText h1 {
+	font-size: 48px;
+}
+
+.researchText p {
+	font-size: 18px;
 }
 
 .researchImage img {
-	width: auto;
-	max-width: 100%;
-	height: auto;
-	max-height: 1000px;
+	width: 800px;
+	height: 100%;
+	object-fit: cover;
+
+
+	/* object-fit: scale-down; */
 }
 
 
