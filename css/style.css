@@ -7,7 +7,9 @@ body {
 }
 }
 
-/* Global */
+/**************************************************
+ ********************* Global *********************
+ *************************************************/
 * {
 	margin: 0;
   	padding: 0;
@@ -18,7 +20,9 @@ body {
 }
 
 
-/* ------------------ Search Bar ------------------ */
+/**************************************************
+ ******************* Search Bar *******************
+ *************************************************/
 
 input {
 	outline: none;
@@ -120,7 +124,9 @@ a {
   transition: all 0.4s ease;
 }
 
-/* Header **/
+/**************************************************
+ ********************* Header *********************
+ *************************************************/
 header {
 	font-weight: normal;
 	background: white;
@@ -220,7 +226,9 @@ header .highlight, header .current a{
 	letter-spacing: 3px;
 }
 
-/* Posts */
+/**************************************************
+ ********************* Posts *********************
+ *************************************************/
 
 #boxes {
 	overflow: hidden;
@@ -305,7 +313,9 @@ header .highlight, header .current a{
 }
 
 
-/* People */
+/**************************************************
+ ********************* People *********************
+ *************************************************/
 
 .top {
 	background-color: blue;
@@ -364,25 +374,17 @@ header .highlight, header .current a{
 }
 
 
-/* Research */
-
+/**************************************************
+ ******************** Research ********************
+ *************************************************/
 .contentBox {
 	padding-top: 100px;
 	display: flex;
 	flex-direction: column;
 }
 
-/* .floatRightHalf {
-	width: auto;
-	max-width: 300px;
-	height: auto;
-	max-height: 300px;
-} */
-
 .researchInfo {
 	background-color: #E5F3F2;
-
-	/* float: left; */
 	margin: 1%;
 	display: flex;
 	flex-direction: row;
@@ -394,7 +396,6 @@ header .highlight, header .current a{
   width: 95%;
 	height: auto;
 	max-height: 400px;
-	/* height: 600px; */
 }
 
 .researchText {
@@ -417,13 +418,15 @@ header .highlight, header .current a{
 	width: 800px;
 	height: 100%;
 	object-fit: cover;
-
-
-	/* object-fit: scale-down; */
 }
 
+.researcHImage img:hover {
+	/* transform: scale(1.2); */
+}
 
-/* Footer */
+/**************************************************
+ ********************* Footer *********************
+ *************************************************/
 
 footer .bottomFooter {
 	overflow: hidden;
