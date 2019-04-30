@@ -58,7 +58,7 @@ header nav ul li a {
 }
 
 header .highlight, header .current a{
-	color:#5EA8AE;
+	color: #5EA8AE;
 	font-weight: bold;
 }
 
@@ -141,7 +141,8 @@ a {
 footer {
 	text-align: left;
 	/*background: linear-gradient(to bottom right, #022a33, #5EA8AE);*/
-	background: linear-gradient(to bottom right, #022a33, #236d44);	
+	/*background: linear-gradient(to bottom right, #022a33, #267c4d);*/
+	background: linear-gradient(to bottom right, #022a33, #5EA8AE);
 	overflow: hidden;
 }
 
@@ -202,7 +203,6 @@ footer .copyright {
 }
 
 footer .copyright p{
-	
 	display: inline;
 	margin-left: 20px;
 	color: #B2BDC3;
@@ -219,14 +219,24 @@ footer .copyright p{
 	footer #top {
 		display: flex;
 		flex-direction: column;
+		float: none;
+	}
+
+	footer #leftSide {
+		padding-left: 0px;
 	}
 
 	footer #rightSide {
 		padding-top: 40px;
 		padding-right: 0px;
-		float: normal;
 		display: inline-block;
 		order: 2;	
+	}
+
+	footer #address {
+		float: none;
+		padding-left: 0px;
+		margin-left: 0px;
 	}
 
 	footer #berk {
@@ -260,7 +270,7 @@ footer .copyright p{
 	margin-top: 250px;
 	font-size: 4em;
 	color: #303332;
-	font-family: FreeMono, sans-serif;*/
+	font-family: FreeMono, sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 	margin-bottom: 0;
@@ -292,7 +302,7 @@ footer .copyright p{
 	letter-spacing: 3px;	
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
 
 	#showcase h1 {
 		font-size: 1.7em;
@@ -314,8 +324,14 @@ footer .copyright p{
 		margin-top: -200px;
 	}
 
+}
 
 /* Content */
+
+.content {
+	background: #5EA8AE;
+}
+
 
 
 
