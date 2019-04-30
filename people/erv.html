@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Whitney Lab for Preception and Action | Welcome</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<header>
+    <div class="logo">LOGO</div>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class = "current"><a href="../people.html">People</a></li>
+            <li><a href="../research.html">Research</a></li>
+            <li><a href="../publications.html">Publications</a></li>
+            <li><a href="../press.html">Press</a></li>
+            <li><a href="../outreach.html">Outreach</a></li>
+        </ul>
+    </nav>
+    <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+</header>
+
+<!--Above portion stays the same for each webpage -->
+
+
+<div class="top">
+    <div class="photo">
+        <img id="erv" width="300" src="../img/people/ervin_hafter.jpg">
+    </div>
+    <div class="contact">
+        <h2>Ervin Hafter</h2>
+        <h3>Professor Emeritus</h3>
+        <h4>Psychology</h4>
+
+        <a href=https://psychology.berkeley.edu/people/ervin-r-hafter target="_blank">
+            <button class="webpage">Website</button></a>
+    </div>
+</div>
+<div class="research">
+    <h2>Research</h2>
+    <p>
+        My lab utilizes psychophysics with human observers to model processes of hearing ranging from those at the
+        lowest level of analysis at the cochlea to such higher-order activities as attention, perception of the
+        auditory scene, music and speech. Our longest-held interests have dealt with spatial hearing with
+        concentrations on the nature of binaural processing. In recent years, the developed of the theoretical work
+        has looked into the neural enhancement of stimulus onsets as well as other tricks used by the binaural system
+        to segregate signals from the background. Study of the "cocktail party effect" has led to uncovering of an
+        underlying neural process that we call "binaural adaptation." A review of much of that work appears in a
+        chapter in Binaural and Spatial Hearing. A different kind of project currently underway employs an artificial
+        spatial environment constructed within a large anechoic chamber. Here, 16 many computer-controlled loudspeakers
+        are used to create a simulated open field environment with virtual sources and echoic surfaces and these are
+        coupled with a simulated visual field presented with a projection television.
+    </p>
+    <p>
+        Studies so far have examined
+        the source segregation and combination and the role played by those interactions in auditory distance
+        perception, scene analysis and cancellation of echoes. In addition, we are measuring the combination of
+        sensory cues and the nature of visual dominance in space. In a quite different set of experiments, we are
+        studying the nature of shared attention, especially that which takes place between sensory modalities. Done
+        in collaboration with Dr. A.-M. Bonnel, these studies utilize a cognitive technique called the "dual task"
+        to examione the factors that determine when attention must be shared and when it does not. Our lab also keeps
+        close contacts with individuals in the Center for New Music and Auditory Technology headed by Professor
+        David Wessel. In music related work we involved with studies of the temporal shapes of auditory signals and
+        their roles in determining rhythmic and intenive qualities to trains of sounds. Finally, we are engaged in
+        large-scale modeling of the auditory functions we study through application of computer simulation.
+    </p>
+</div>
+
+
+
+
+
+
+
+<!--Below portion stays the same for each webpage -->
+
+<footer>
+    <div id="top">
+        <div id="leftSide">
+            <div id="address">
+                <h5>The Whitney Laboratory </h5>
+                <p>Deptartment of Psychology</p>
+                <p>2121 Berkeley Way</p>
+                <p>University of California, Berkeley</p>
+                <p>Berkeley, CA 94720-1650</p>
+            </div>
+            <div id="social">
+                <a href="#">
+                    <img id="insta" width="50" src="../img/footer/instagram.png">
+                </a>
+                <a href="#">
+                    <img id="twitter" width="50" src="../img/footer/twitter.png">
+                </a>
+                <a href="#">
+                    <img id="youtube" width="50" src="../img/footer/youtube.png">
+                </a>
+            </div>
+        </div>
+        <div id="rightSide">
+            <div id="neuro">
+                <a href="http://neuroscience.berkeley.edu/">
+                    <img id="n" width="300" src="../img/footer/helen_wills.png">
+                </a>
+            </div>
+            <!-- <a href="https://www.ocf.berkeley.edu/">
+                <img id="ocf" width="80" src="ocf_logo.png">
+            </a> -->
+            <div id="berk">
+                <a href="https://www.berkeley.edu/">
+                    <img id="b" width="130"  src="../img/footer/cal_logo.png">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Whitney Laboratory, Copyright &copy; 2019</p>
+        <p>Designed by William Schloetel, Maxwell Chen, and Lily Bhattacharjee</p>
+    </div>
+</footer>
+
+<!-- Scripts for responsive navbar -->
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.menu-toggle').click(function(){
+            $('nav').toggleClass('active')
+        })
+        $('ul li').click(function(){
+            $(this).siblings().removeClass('active');
+            $(this).toggleClass('active');
+        })
+    })
+</script>
+
+</body>
+</html>
