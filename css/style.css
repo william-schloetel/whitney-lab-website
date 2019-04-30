@@ -52,8 +52,8 @@ header nav ul li{
 }
 
 header nav ul li a {
-	color: black;
-	font-size: 15px;
+	color: #2a3435;
+	font-size: 14px;
 	text-decoration: none;
 	text-transform: uppercase;
 	height:50px;
@@ -96,6 +96,7 @@ header a {
 	header{
 		padding:0 20px;
 		background-color: #2d302d;
+		box-shadow: 0px 2px 10px black;
 	}
 
 	.menu-toggle{
@@ -146,7 +147,7 @@ footer {
 	text-align: left;
 	/*background: linear-gradient(to bottom right, #022a33, #5EA8AE);*/
 	/*background: linear-gradient(to bottom right, #022a33, #267c4d);*/
-	background: linear-gradient(to bottom right, #022a33, #5EA8AE);
+	background: linear-gradient(to bottom right, #274f59, #d7e1e2);
 	overflow: hidden;
 }
 
@@ -163,9 +164,11 @@ footer #top {
 footer #address p {
 	line-height: 7px;
 	color: #eaf7ee;
+
 	font-weight: lighter;
 	letter-spacing: 3px;
 	font-size: 15px;
+	font-family: Geneva;
 
 }
 
@@ -173,7 +176,7 @@ footer #address h5 {
 	margin-top: 30px;
 	padding-bottom: 0;
 	margin-bottom: 0;
-	font-family: Optima, sans-serif;
+	font-family: Palatino;
 	font-weight: normal;
 	font-size: 27px;
 	color: white;
@@ -202,7 +205,7 @@ footer .copyright {
 	vertical-align: bottom;
 	padding-bottom: 10px;
 	min-height: 35px;
-	background-color: #042633;
+	background-color: rgba(15, 36, 49, 0.78);
 	padding-top: 15px;
 
 }
@@ -210,6 +213,8 @@ footer .copyright {
 footer .copyright p{
 	display: inline;
 	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
 	color: #B2BDC3;
 	font-size: 13px;
 	font-family: Arial, sans-serif;
@@ -466,6 +471,32 @@ article {
 		float: bottom;
 		order: 2;
 	}
+
+}
+
+
+
+/***************** People Page *******************/
+
+
+.lab_photo {
+	padding: 150px 10px 100px 10px;
+	text-align: center;
+	background: #ebf3f4;
+}
+
+.people h3 {
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	font-weight: lighter;
+	color: #2a3435;
+	font-family: Palatino;
+	font-size: 40px;
+}
+
+.people .label {
+	display: inline-block;
 
 }
 
