@@ -53,6 +53,7 @@ header nav ul li{
 
 header nav ul li a {
 	color: #2a3435;
+	/*color: #374344;*/
 	font-size: 14px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -63,12 +64,16 @@ header nav ul li a {
 }
 
 header .highlight, header .current a{
+	/*color: #5EA8AE;*/
+	/*color: #82a4ad;*/
 	color: #5EA8AE;
+	/*color: #d7e1e2;*/
 	font-weight: bold;
 }
 
 header a:hover{
-	color: #5F9BBF;
+	/*color: #5F9BBF;*/
+	color: #5EA8AE;
 }
 
 header a {
@@ -147,40 +152,41 @@ footer {
 	text-align: left;
 	/*background: linear-gradient(to bottom right, #022a33, #5EA8AE);*/
 	/*background: linear-gradient(to bottom right, #022a33, #267c4d);*/
-	background: linear-gradient(to bottom right, #274f59, #d7e1e2);
+	/*background: linear-gradient(to bottom right, #274f59, #82a4ad);*/
+	background: linear-gradient(to bottom right, #274f59, #5EA8AE);
+
 	overflow: hidden;
 }
 
 footer #leftSide {
 	display: inline-block;
 	padding-left: 50px;
+	letter-spacing: 3px;
 }
 
 footer #top {
-	min-height: 270px;
+	min-height: 280px;
 	overflow: hidden;
 }
 
 footer #address p {
-	line-height: 7px;
-	color: #eaf7ee;
-
-	font-weight: lighter;
-	letter-spacing: 3px;
+	font-family: FreeMono, sans-serif;
 	font-size: 15px;
-	font-family: Geneva;
-
+	/*color: #eaf7ee;*/
+	color: #dae8e7;
+	font-weight: lighter;
+	line-height: 7px;
 }
 
 footer #address h5 {
+	/*font-family: FreeMono, serif;*/
+	font-family: Palatino;
+	font-size: 25px;
+	color: white;
+	font-weight: normal;
 	margin-top: 30px;
 	padding-bottom: 0;
 	margin-bottom: 0;
-	font-family: Palatino;
-	font-weight: normal;
-	font-size: 27px;
-	color: white;
-	letter-spacing: 3px;
 }
 
 footer #social {
@@ -204,7 +210,7 @@ footer .copyright {
 	text-align: center;
 	vertical-align: bottom;
 	padding-bottom: 10px;
-	min-height: 35px;
+	min-height: 20px;
 	background-color: rgba(15, 36, 49, 0.78);
 	padding-top: 15px;
 
@@ -283,7 +289,6 @@ footer .copyright p{
 	font-family: FreeMono, sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 10px;
-	margin-bottom: 0;
 	letter-spacing: 4px;
 	overflow: hidden;
 }
@@ -338,9 +343,6 @@ footer .copyright p{
 
 /* Content */
 
-.content {
-	background: #5EA8AE;
-}
 
 
 
@@ -438,8 +440,9 @@ footer .copyright p{
 .research p {
 	margin-top: 10px;
 	padding-left: 50px;
-	padding-right: 100px;
+	padding-right: 50px;
 	font-family: Geneva;
+
 	font-size: 18px;
 }
 
@@ -480,24 +483,84 @@ article {
 
 
 .lab_photo {
-	padding: 150px 10px 100px 10px;
+	padding: 100px 10px 100px 10px;
 	text-align: center;
 	background: #ebf3f4;
 }
 
 .people h3 {
-	text-align: left;
+	text-align: center;
 	margin-top: 50px;
-	margin-left: 50px;
 	font-weight: lighter;
 	color: #2a3435;
 	font-family: Palatino;
-	font-size: 40px;
+	font-size: 35px;
 }
 
-.people .label {
-	display: inline-block;
 
+.people .row {
+	text-align: center;
+}
+.people .label {
+	padding: 20px 20px 10px 20px;
+	text-align: center;
+	display: inline-block;
+	background: #ebf3f4;
+	font-weight: lighter;
+	color: #2a3435;
+	font-family: Palatino;
+	font-size: 23px;
+}
+
+
+/****************** Outreach Page ******************/
+
+
+
+/* Style the button that is used to open and close the collapsible content */
+.teachers {
+	margin-left: 50px;
+}
+
+.collapsible {
+	background: #ebf3f4;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	border-left: 6px solid #5EA8AE;
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+	width: 80%;
+	margin-left: 50px;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move
+the mouse over it (hover) */
+.collapsible:hover {
+	background-color: #fdfffb;
+}
+.collapsible {
+	text-decoration: none;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.dropdown {
+	/*padding: 0 18px;*/
+	margin-left: 50px;
+	width: 80%;
+	display: none;
+	overflow: hidden;
+	/*background-color: #f1f1f1;*/
+	background-color: white;
 }
 
 
