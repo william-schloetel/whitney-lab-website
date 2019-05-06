@@ -85,8 +85,10 @@ a {
 	display: none;
 }
 
+
+
 /*Responsive navbar */
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
 
 	header{
 		padding:0 20px;
@@ -128,11 +130,106 @@ a {
 	    background-color: #003e6f;
     }
 
-    header nav ul li ul li{
-    	width:100vw;
-    	text-align: center;
-    }
+  header nav ul li ul li{
+  	width:100vw;
+  	text-align: center;
+  }
 
+	#mobileLocalization {
+		background-image: linear-gradient(
+					rgba(0, 0, 0, 0.7),
+					rgba(0, 0, 0, 0.7)
+				), url("../img/reaching.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#mobileRecognition {
+		background-image: linear-gradient(
+					rgba(0, 0, 0, 0.7),
+					rgba(0, 0, 0, 0.7)
+				), url("../img/recognition.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#mobileStability {
+		background-image: linear-gradient(
+					rgba(0, 0, 0, 0.7),
+					rgba(0, 0, 0, 0.7)
+				), url("../img/stability.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.researchInfo {
+		color: white;
+
+		margin: 2%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		overflow: hidden;
+		margin-left: auto;
+		margin-right: auto;
+		width: 95%;
+		height: auto;
+		max-height: 400px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.researchText {
+		text-align: center;
+		margin: auto;
+		width: 100%;
+		padding-left: 75px;
+		padding-right: 75px;
+	}
+
+	.researchImage img {
+		display: none;
+	}
+
+	.subtopic {
+		display: flex;
+		flex-direction: column;
+	}
+
+	a {
+	  color: #E5F3F2;
+	  text-decoration: none;
+	  -webkit-transition: all 0.4s ease;
+	  -moz-transition: all 0.4s ease;
+	  -ms-transition: all 0.4s ease;
+	  -o-transition: all 0.4s ease;
+	  transition: all 0.4s ease;
+	}
+
+}
+
+@media (min-width: 1000px) {
+	.researchInfo {
+		background-color: #E5F3F2;
+		margin: 1%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		overflow: hidden;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 95%;
+		height: auto;
+		max-height: 400px;
+	}
+
+	.researchText {
+		text-align: center;
+		margin: auto;
+		width: 50%;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
 }
 
 /***************** Responsive Footer ****************/
@@ -275,12 +372,19 @@ footer .copyright p{
  ******************** Research ********************
  *************************************************/
 .contentBox {
+	padding: 50px;
 	padding-top: 100px;
 	display: flex;
 	flex-direction: column;
 }
 
-.researchInfo {
+#bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* .researchInfo {
 	background-color: #E5F3F2;
 	margin: 1%;
 	display: flex;
@@ -293,15 +397,7 @@ footer .copyright p{
   width: 95%;
 	height: auto;
 	max-height: 400px;
-}
-
-.researchText {
-	text-align: center;
-	margin: auto;
-	width: 50%;
-	padding-left: 100px;
-	padding-right: 100px;
-}
+} */
 
 .researchText h1 {
 	font-size: 48px;
@@ -315,11 +411,35 @@ footer .copyright p{
 	width: 800px;
 	height: 100%;
 	object-fit: cover;
+
+	/* max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; */
 }
 
-.researcHImage img:hover {
-	/* transform: scale(1.2); */
+.researchImage img:hover {
+	/* -moz-transform: scale(1.01);
+	-webkit-transform: scale(1.01);
+	transform: scale(1.01); */
 }
+
+.researchContent {
+	padding: 50px;
+	background: #E5F3F2;
+}
+
+
+.subtopic {
+	display: flex;
+	flex-direction: row;
+ justify-content: space-between;
+}
+
+.subtopic div {
+	padding-right: 50px;
+}
+
 
 /**************************************************
  ********************* Footer *********************
@@ -371,7 +491,7 @@ footer .copyright p{
  		font-size: 1.7em;
  		margin-top: 400px;
  	}
-	
+
 	#showcase h5 {
 		font-size: 13px;
 	}

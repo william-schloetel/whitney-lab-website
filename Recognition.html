@@ -11,77 +11,112 @@
 
 <body>
 	<header>
-		<div class="container">
-			<div id="branding">
-				<a href="index.html">
-					<img width="231.65" height="40" src="./img/whitney_lab_logo1.png">
-				</a>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="people.html">People</a></li>
-					<li class = "current"><a href="research.html">Research</a></li>
-					<li><a href="publications.html">Publications</a></li>
-					<li><a href="press.html">Press</a></li>
-					<li><a href="http://www.perceptionscienceinternship.com/" target="_blank">Outreach</a></li>
-					<li><a id="demo-2" href="#">
-								<input type="search" placeholder="Search">
-							</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
+		<div class="logo">LOGO</div>
+		<nav>
+			<ul>
+				<li class = "current"><a href="index.html">Home</a></li>
+				<li><a href="people.html">People</a></li>
+				<li><a href="research.html">Research</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="press.html">Press</a></li>
+				<li><a href="outreach.html">Outreach</a></li>
+			</ul>
+		</nav>
+		<div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
 	</header>
 
-
-
-
-
-
-    <div class="contentBox">
-
-    </div> <!--content box-->
-
-
-
-
-
-
-	<footer>
-		<div class="bottomFooter">
-			<a href="http://neuroscience.berkeley.edu/">
-				<img id="neuro" width="310" height="180" src="./img/footer/helen_wills.png">
-			</a>
-
-			<div id="labels">
-				<!-- <a href="https://www.ocf.berkeley.edu/">
-					<img id="ocf" src="./img/footer/ocf_logo.png">
-				</a> -->
-				<a href="https://www.berkeley.edu/">
-					<img id="berk" width="310" height="180" src="./img/footer/cal_logo.png">
+	<div class="contentBox">
+		<div class="researchContent">
+			<div id = "bar">
+				<h1> Recognition </h1>
+				<a href = "research.html">
+					<img src = "img/back_arrow.png" height="50px" width = "50px">
 				</a>
 			</div>
 
-			<div>
-				<p id="whitney"> The Whitney Laboratory </p>
-				<p>Dept. of Psychology, 3210 Tolman Hall</p>
-				<p>University of California</p>
-				<p>Berkeley, CA 94720</p>
-				<p id="contact">Contact Us</p>
-				<p id="phone">Lab phone: 510-984-3033</p>
+			<h2> Crowding </h2>
+			<p>
+				Identifying a coffee mug on an otherwise empty desk is easy, even if you aren't
+				looking directly at it. The same mug on a cluttered desk is much harder to identify.
+				Why should this be so? The same visual information about the mug is reaching your
+				eyes in both cases. It's the cluttered desk that makes the difference: when several
+				objects are packed, or crowded, densely enough in the visual periphery, they become
+				harder to recognize. We study the phenomenon of crowding to explore the processes
+				underlying peripheral vision and object recognition.
+			</p>
+			<h2> Ensemble perception and summary statistics </h2>
+
+			<div class = "subtopic">
+				<div>
+					<p>
+						The world is full of groups. Apples sit in neatly stacked pyramids at the market,
+						and a crowd of people fills an auditorium for a concert. You can notice the "gist"
+						of the group well before you have inspected each member: a shopper sees the apple
+						pile as fresh or stale at a glance; a performer may see the audience's boredom or
+						amusement. How does this happen? It turns out that our visual system is specialized
+						to perceive groups, quickly pooling information about individuals to obtain an ensemble,
+						or summary, representation. This ensemble perception allows us to process a lot of
+						information at once in order to navigate a complex world efficiently.
+					</p>
+					<p>
+						We frequently encounter crowds of faces. Here we report that, when presented with a
+						group of faces, observers quickly and automatically extract information about the mean
+						emotion in the group. This occurs even when observers cannot report anything about the
+						individual identities that comprise the group. The results reveal an efficient and
+						powerful mechanism that allows the visual system to extract summary statistics from
+						a broad range of visual stimuli, including faces.
+					</p>
+				</div>
+
+				<img src = "img/ensemble.png" height = "100%" width = "100%"/>
+
 			</div>
 		</div>
+	</div> <!--content box-->
 
-		<div class="copyright">
-			<div>
-				<p>Whitney Laboratory, Copyright &copy; 2018</p>
+		<footer>
+			<div id="top">
+				<div id="leftSide">
+					<div id="address">
+						<h5>The Whitney Laboratory </h5>
+						<p>Deptartment of Psychology</p>
+						<p>2121 Berkeley Way</p>
+						<p>University of California, Berkeley</p>
+						<p>Berkeley, CA 94720-1650</p>
+					</div>
+					<div id="social">
+						<a href="#">
+							<img id="insta" width="50" src="./img/footer/instagram.png">
+						</a>
+						<a href="#">
+							<img id="twitter" width="50" src="./img/footer/twitter.png">
+						</a>
+						<a href="#">
+							<img id="youtube" width="50" src="./img/footer/youtube.png">
+						</a>
+					</div>
+				</div>
+				<div id="rightSide">
+					<div id="neuro">
+						<a href="http://neuroscience.berkeley.edu/">
+							<img id="n" width="300" src="./img/footer/helen_wills.png">
+						</a>
+					</div>
+					<!-- <a href="https://www.ocf.berkeley.edu/">
+						<img id="ocf" width="80" src="ocf_logo.png">
+					</a> -->
+					<div id="berk">
+						<a href="https://www.berkeley.edu/">
+							<img id="b" width="130"  src="./img/footer/cal_logo.png">
+						</a>
+					</div>
+				</div>
 			</div>
-		</div>
 
-	</footer>
-
-
+			<div class="copyright">
+				<p>Whitney Laboratory, Copyright &copy; 2019</p>
+			</div>
+		</footer>
 
 	<!-- Google Analytics -->
     <script type="text/javascript">
