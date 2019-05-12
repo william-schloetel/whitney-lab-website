@@ -8,10 +8,83 @@ body {
 	background-size: cover;
 }
 
+/* Top portion of webpage
+
+	navbar
+	 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	|	THE WHITNEY LAB						HOME 	 PEOPLE	  	RESEARCH	PUBLICATIONS	PRESS	OUTREACH	|
+	|	for Perception and Action																				|
+	 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	class=top						h1: Title of page (e.g. People, etc.)
+									h2: Person's name (e.g. David Whitney)
+									h3: Title (e.g. Professor)
+									h4: Associated dept. (e.g. Psychology)
+									p: Email
+
+	 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			CONTENT
+
+	 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	footer
+
+
+	 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ */
+
 a {
 	text-decoration: none;
 }
 
+/* Default font */
+p {
+	font-family: Lato;
+	font-weight: lighter;
+	color: #2a3435;
+	font-size: 20px;
+}
+
+.top {
+	padding-top: 90px;
+	padding-bottom: 40px;
+	background: #ebf3f4;
+}
+
+.top h2 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-weight: lighter;
+	color: #2a3435;
+	/*font-family: Palatino;*/
+	font-family: Lato;
+	font-size: 40px;
+}
+
+.top h3 {
+	/*font-family: Geneva;*/
+	font-family: Lato;
+	font-size: 25px;
+	font-weight: lighter;
+	padding-bottom: 0px;
+	line-height: 0px;
+}
+
+.top h4 {
+	padding-top: 0px;
+	/*font-family: Palatino;*/
+	font-family: Lato;
+	font-weight: lighter;
+	font-size: 18px;
+	line-height: 0px;
+}
+
+top p {
+	padding-top: 20px;
+	font-size: 19px;
+	color: #5F9BBF;
+}
 
 /**************** Responsive Navbar ******************/
 
@@ -55,6 +128,8 @@ header nav ul li a {
 	color: #2a3435;
 	/*color: #374344;*/
 	font-size: 14px;
+	font-family: Lato;
+	font-weight: lighter;
 	text-decoration: none;
 	text-transform: uppercase;
 	height:50px;
@@ -170,20 +245,17 @@ footer #top {
 }
 
 footer #address p {
-	font-family: FreeMono, sans-serif;
 	font-size: 15px;
-	/*color: #eaf7ee;*/
 	color: #dae8e7;
-	font-weight: lighter;
 	line-height: 7px;
 }
 
 footer #address h5 {
 	/*font-family: FreeMono, serif;*/
-	font-family: Palatino;
+	font-family: Lato;
 	font-size: 25px;
 	color: white;
-	font-weight: normal;
+	font-weight: lighter;
 	margin-top: 30px;
 	padding-bottom: 0;
 	margin-bottom: 0;
@@ -223,7 +295,6 @@ footer .copyright p{
 	margin-bottom: 20px;
 	color: #B2BDC3;
 	font-size: 13px;
-	font-family: Arial, sans-serif;
 }
 
 @media (max-width: 1000px){
@@ -349,11 +420,6 @@ footer .copyright p{
 
 /***************** Personnel Pages *******************/
 
-.top {
-	padding-top: 90px;
-	padding-bottom: 40px;
-	background: #ebf3f4;
-}
 
 .photo {
 	padding-bottom: 0px;
@@ -367,30 +433,6 @@ footer .copyright p{
 	padding-top: 10px;
 	display: inline-block;
 	padding-left: 30px;
-}
-
-.top h2 {
-	margin-top: 10px;
-	margin-bottom: 0px;
-	font-weight: lighter;
-	color: #2a3435;
-	font-family: Palatino;
-	font-size: 40px;
-}
-
-.top h3 {
-	font-family: Geneva;
-	font-size: 25px;
-	font-weight: lighter;
-	padding-bottom: 0px;
-	line-height: 0px;
-}
-
-.top h4 {
-	padding-top: 0px;
-	font-family: Palatino;
-	font-size: 18px;
-	line-height: 0px;
 }
 
 .contact p {
@@ -432,7 +474,8 @@ footer .copyright p{
 	color: #2a3435;
 	margin-bottom: 0px;
 	padding-left: 50px;
-	font-family: Geneva;
+	/*font-family: Geneva;*/
+	font-family: Lato;
 	font-weight: lighter;
 	font-size: 30px;
 }
@@ -441,9 +484,11 @@ footer .copyright p{
 	margin-top: 10px;
 	padding-left: 50px;
 	padding-right: 50px;
-	font-family: Geneva;
+	/*font-family: Geneva;*/
+	font-family: Lato;
+	font-weight: lighter;
 
-	font-size: 18px;
+	font-size: 20px;
 }
 
 article {
@@ -484,25 +529,39 @@ article {
 
 .lab_photo {
 	padding: 100px 10px 100px 10px;
+	margin-bottom: 50px;
 	text-align: center;
 	background: #ebf3f4;
 }
 
-.people h3 {
+.lab_photo h3 {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 45px;
 	font-weight: lighter;
 	color: #2a3435;
-	font-family: Palatino;
-	font-size: 35px;
+	font-family: Lato;
+	font-size: 37px;
 }
-
+.people {
+	padding-bottom: 100px;
+}
+.people h3 {
+	padding-top: 20px;
+	font-family: Lato;
+	font-weight: lighter;
+	font-size: 32px;
+}
 
 .people .row {
 	text-align: center;
 }
+
+
 .people .label {
-	padding: 20px 20px 10px 20px;
+	width: 250px;
+	height: 350px;
+	padding: 30px 20px 35px 20px;
+	margin: 20px 20px 20px 20px;
 	text-align: center;
 	display: inline-block;
 	background: #ebf3f4;
@@ -511,16 +570,57 @@ article {
 	font-family: Palatino;
 	font-size: 23px;
 }
+.people .label:hover {
+	/*background-color: #fdfffb;*/
+	background-color: #dee5e5;
+}
+.label {
+	overflow: hidden;
+	text-decoration: none;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
 
 
 /****************** Outreach Page ******************/
 
+.outreach {
+	padding: 90px 100px 50px 100px;
+	background: #ebf3f4;
+}
 
+.outreach h2 {
+	text-align: center;
+	margin-top: 45px;
+	font-weight: lighter;
+	color: #2a3435;
+	font-family: Lato;
+	font-size: 37px;
+}
 
-/* Style the button that is used to open and close the collapsible content */
-.teachers {
+#outreachInfo{
+	padding: 30px 100px 20px 50px;
+}
+
+#FAQ h2 {
+	font-family: Lato;
+	font-weight: lighter;
 	margin-left: 50px;
 }
+
+#modules h2 {
+	font-family: Lato;
+	font-weight: lighter;
+	margin-left: 50px;
+}
+#modules {
+	margin-bottom: 60px;
+}
+
 
 .collapsible {
 	background: #ebf3f4;
@@ -535,7 +635,7 @@ article {
 	margin-left: 50px;
 	text-align: left;
 	outline: none;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move
@@ -554,13 +654,15 @@ the mouse over it (hover) */
 
 /* Style the collapsible content. Note: hidden by default */
 .dropdown {
-	/*padding: 0 18px;*/
-	margin-left: 50px;
-	width: 80%;
+
+	margin-left: 100px;
+	width: 70%;
+	font-size: 20px;
 	display: none;
 	overflow: hidden;
-	/*background-color: #f1f1f1;*/
+
 	background-color: white;
 }
+
 
 

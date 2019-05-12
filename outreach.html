@@ -7,6 +7,7 @@
 	<title>Whitney Lab for Preception and Action | Welcome</title>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -30,7 +31,7 @@
 
 
 
-
+<div class="outreach">
 	<h2>Outreach</h2>
 
 	<p>
@@ -45,40 +46,106 @@
 	various resources so you will have a successful vision day for years to come! We hope to visit your high
 	school soon.
 	</p>
+</div>
 
+	<div id="outreachInfo">
 
-
+		<p>
+			As part of our vision science curriculum, we have many interactive demos and illusions to present to students!
+			They are broken down into modules to help students conceptualize the various components of the human visual
+			system and to better understand how we perceive the world with our eyes and our brain.
+		</p>
 	</div>
-	<br>
-	<div class="wrapper">
-		content
+
+	<div id="FAQ">
+		<h2>Frequently asked Questions</h2>
+		<button class="collapsible">What are they?</button>
+		<div class="dropdown">
+			<p>Feature Presentation: Color Blindness Simulation</p>
+			<p>Color</p>
+			<p>Motion</p>
+			<p>Shadows, Reflection and Depth</p>
+			<p>Faces</p>
+		</div>
+		<button class="collapsible">What to expect</button>
+		<div class="dropdown">
+			<p>
+				Once we set up and introduce ourselves, we will show your students many engaging and awe inspiring
+				visual illusions, hands-on demonstrations, and examples of visual phenomena that will give eager
+				learners special insight into the way their eyes and brains process the visual world around them.
+			</p>
+			<p>
+				A typical vision day schedule includes a feature presentation where students can experience what it's
+				like to have color blindness, followed by the 4 separate, but related, vision demo modules which
+				students will experience in small groups.
+			</p>
+		</div>
+		<button class="collapsible">How do we do this?</button>
+		<div class="dropdown">
+			<p>
+				Our goal is to inspire a scientific interest in students who feel that science may be overwhelming and
+				perplexing. We hope that our demos and lessons will encourage students to think about how the science
+				behind vision affects their daily life.
+			</p>
+			<p>
+				By breaking the many facets of visual neuroscience into separate, accessible modules, we can make the
+				complex concepts we hope to share easily enjoyable and understandable, without detracting from the
+				hard science or relevant information.
+			</p>
+			<p>For some of the specific details involved in each of the modules, read on!</p>
+		</div>
+
+		<button class="collapsible">Why are we so excited about vision?</button>
+		<div class="dropdown">
+			<p>Because we use it every day!</p>
+			<p>
+				If you're interested in learning more about our outreach program, please visit our frequently asked
+				questions page, or send us an email with more specific questions here.
+			</p>
+			<p>We'd love to visit your school and show your eager students what advanced vision research is all about,
+				and if you become as excited as we are, we can even leave you with materials for further learning
+				and exploration!
+			</p>
+
+		</div>
 	</div>
-	<br>
-	<br>
-	<div class="wrapper">
-		content
+	<div id="modules">
+		<h2>Modules</h2>
+		<button class="collapsible">Feature Presentation: Color Blindness Simulation</button>
+		<div class="dropdown">
+			<p>
+				This popular demo involves blocking out all natural light in a large classroom or meeting room where we
+				can power several sodium lights, which will emulate an extreme example of the phenomenon of color
+				blindness.
+			</p>
+		</div>
+		<button class="collapsible">Color</button>
+		<div class="dropdown">
+			<p>
+				In well lit conditions, we perceive color as different wavelengths of light come in contact with the 3
+				types of cone photoreceptors in our retina. Students will be able to appreciate the way they see the
+				world in full color as we demonstrate examples of color adaptation, aftereffect and relative color.
+			</p>
+		</div>
+		<button class="collapsible">Motion</button>
+		<div class="dropdown">
+			<p>
+				Just because an object isn't moving doesn't mean that it won't appear to be moving! This vision module
+				highlights the way in which our ability to see the world around us move can be disrupted or tricked with
+				illusions like the rotating snake, the flash-lag effect and various methods of creating biological
+				motion.
+			</p>
+		</div>
+		<button class="collapsible">Shadows, Reflection and Depth</button>
+		<div class="dropdown">
+			<p>
+				While binocular vision is necessary to see illusions like magic eye posters and 3D movies, many
+				inferred and monocular visual cues become important for seeing depth, shadows and reflections in the
+				world. Here, we combine classic examples like the Ames Room, with other intriguing domains that
+				subtly involve depth perception, such as artwork, impossible objects and size constancy.
+			</p>
+		</div>
 	</div>
-	<br>
-	<br>
-	<div class="wrapper">
-		content
-	</div>
-	<br>
-	<br>
-	<div class="wrapper">
-		content
-	</div>
-	<br>
-	<br>
-	<div class="wrapper">
-		content
-	</div>
-	<br>
-	<br>
-	<div class="wrapper">
-		content
-	</div>
-	<br>
 
 
 
@@ -91,7 +158,17 @@
 
 
 
-<!--Below portion stays the same for each webpage -->
+
+
+
+
+
+
+
+
+
+
+	<!--Below portion stays the same for each webpage -->
 
 	<footer>
 		<div id="top">
@@ -134,12 +211,28 @@
 	
 		<div class="copyright">
 			<p>Whitney Laboratory, Copyright &copy; 2019</p>
-			<p>Designed by William Schloetel, Maxwell Chen, and Lily Bhattacharjee</p>
+			<p>Designed by William Schloetel and Maxwell Chen</p>
 		</div>
 	</footer>
 
 
+	<!-- Script for collapsible info dropdown menus -->
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
 
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
 
 <!-- Scripts for responsive navbar -->
 	<script src="https://code.jquery.com/jquery-3.3.1.js"
