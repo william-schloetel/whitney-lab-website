@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72f83db7-0751-41c3-8d55-a095abd9dc8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/accent_leonardo_cropped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/people/default.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outreach.html" beforeDir="false" afterPath="$PROJECT_DIR$/outreach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outreach_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/outreach_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people.html" beforeDir="false" afterPath="$PROJECT_DIR$/people.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/allison.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/allison.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/billy.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/billy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/dave.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/dave.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/erv.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/erv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/ken.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/ken.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/mauro.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/mauro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/william.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/william.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/ye.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/ye.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/yuki.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/yuki.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/zhimin.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/zhimin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/zixuan.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/zixuan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
-    </list>
+    <list default="true" id="72f83db7-0751-41c3-8d55-a095abd9dc8f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -71,11 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="226">
               <caret line="615" column="22" lean-forward="true" selection-start-line="615" selection-start-column="22" selection-end-line="615" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/publications.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18120">
+              <caret line="1208" lean-forward="true" selection-start-line="1208" selection-end-line="1208" />
             </state>
           </provider>
         </entry>
@@ -133,7 +120,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="19" />
-    <option name="y" value="44" />
+    <option name="y" value="43" />
     <option name="width" value="1255" />
     <option name="height" value="760" />
   </component>
@@ -159,11 +146,6 @@
               <item name="whitney_lab_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="whitney_lab_website" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="whitney_lab_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="whitney_lab_website" type="462c0819:PsiDirectoryNode" />
-              <item name="people" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,12 +222,12 @@
       <workItem from="1557425783285" duration="133000" />
       <workItem from="1557426460956" duration="343000" />
       <workItem from="1557531405243" duration="5489000" />
-      <workItem from="1557612457552" duration="10614000" />
+      <workItem from="1557612457552" duration="11015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83473000" />
+    <option name="totallyTimeSpent" value="83874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,7 +239,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="44" width="1255" height="760" extended-state="0" />
+    <frame x="19" y="43" width="1255" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18881686" />
@@ -367,13 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publications.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="1208" lean-forward="true" selection-start-line="1208" selection-end-line="1208" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/people/david_whitney.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -416,6 +391,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="615" column="22" lean-forward="true" selection-start-line="615" selection-start-column="22" selection-end-line="615" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publications.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18120">
+          <caret line="1208" lean-forward="true" selection-start-line="1208" selection-end-line="1208" />
         </state>
       </provider>
     </entry>
