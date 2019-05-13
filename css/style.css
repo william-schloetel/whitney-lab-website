@@ -146,12 +146,12 @@ header .highlight, header .current a{
 	font-weight: bold;
 }
 
-header a:hover{
+a:hover{
 	/*color: #5F9BBF;*/
 	color: #5EA8AE;
 }
 
-header a {
+a {
   color: #1F2A2E;
   text-decoration: none;
   -webkit-transition: all 0.4s ease;
@@ -412,13 +412,96 @@ footer .copyright p{
 
 }
 
-/* Content */
+#welcome {
+	padding: 25px 50px 0px 50px;
+	text-align: center;
+}
+
+#welcome h3 {
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: lighter;
+	padding-bottom: 0px;
+	line-height: 0px;
+	color: #2a3435;
+}
+
+#about {
+	padding: 0px 50px 0px 50px;
+}
+
+#about h3 {
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: lighter;
+	padding-bottom: 0px;
+	line-height: 0px;
+	color: #2a3435;
+}
+
+#news {
+	padding: 25px 50px 0px 50px;
+	text-align: center;
+}
+
+#news h3 {
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: lighter;
+	padding-bottom: 0px;
+	line-height: 0px;
+	color: #2a3435;
+}
+
+#news .row .box {
+	width: 300px;
+	height: 500px;
+	padding: 30px 20px 35px 20px;
+	margin: 20px 10px 100px 10px;
+	text-align: center;
+	display: inline-block;
+	background: #ebf3f4;
+	font-weight: lighter;
+	color: #2a3435;
+	font-size: 23px;
+	overflow: hidden;
+}
+#news .row .box:hover {
+	/*background-color: #fdfffb;*/
+	background-color: #dee5e5;
+}
+
+#news .row .box {
+	overflow: hidden;
+	text-decoration: none;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+#news .row .box h2 {
+
+	/*font-family: Palatino;*/
+	font-family: Lato;
+	font-weight: lighter;
+	font-size: 20px;
+	line-height: 0px;
+}
+
+@media (max-width: 1200px) {
+	#news .row .box {
+		width: 250px;
+		height: 500px;
+	}
+}
 
 
 
 
 
-/***************** Personnel Pages *******************/
+	/***************** Personnel Pages *******************/
 
 
 .photo {
