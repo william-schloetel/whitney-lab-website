@@ -39,11 +39,34 @@ a {
 }
 
 /* Default font */
-p {
+p, h1, h2, h3, h4, h5 {
 	font-family: Lato;
 	font-weight: lighter;
 	color: #2a3435;
+}
+
+p {
 	font-size: 20px;
+}
+
+h1 {
+	font-size: 37px
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 18px;
 }
 
 .top {
@@ -52,35 +75,26 @@ p {
 	background: #ebf3f4;
 }
 
+.top h1 {
+	margin-top: 0;
+}
+
 .top h2 {
 	margin-top: 10px;
 	margin-bottom: 0px;
-	font-weight: lighter;
-	color: #2a3435;
-	/*font-family: Palatino;*/
-	font-family: Lato;
-	font-size: 40px;
 }
 
 .top h3 {
-	/*font-family: Geneva;*/
-	font-family: Lato;
-	font-size: 25px;
-	font-weight: lighter;
 	padding-bottom: 0px;
 	line-height: 0px;
 }
 
 .top h4 {
 	padding-top: 0px;
-	/*font-family: Palatino;*/
-	font-family: Lato;
-	font-weight: lighter;
-	font-size: 18px;
 	line-height: 0px;
 }
 
-top p {
+.top p {
 	padding-top: 20px;
 	font-size: 19px;
 	color: #5F9BBF;
@@ -413,44 +427,47 @@ footer .copyright p{
 }
 
 #welcome {
-	padding: 25px 50px 0px 50px;
+	padding: 30px 50px 30px 50px;
 	text-align: center;
 }
 
-#welcome h3 {
-	font-family: Lato;
-	font-size: 30px;
-	font-weight: lighter;
-	padding-bottom: 0px;
-	line-height: 0px;
-	color: #2a3435;
-}
+
 
 #about {
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+
+#about .aboutImg {
+	float: left;
+	padding: 70px 50px 70px 50px;
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+#about .aboutImg img {
+	width: 500px;
+}
+
+#about .aboutText {
+	text-align: justify;
+	margin: 0px 0px 0px 0px;
 	padding: 0px 50px 0px 50px;
+
 }
 
-#about h3 {
-	font-family: Lato;
-	font-size: 30px;
-	font-weight: lighter;
-	padding-bottom: 0px;
-	line-height: 0px;
-	color: #2a3435;
-}
 
-#news {
-	padding: 25px 50px 0px 50px;
+
+#about .aboutText h2 {
 	text-align: center;
 }
 
-#news h3 {
-	font-family: Lato;
-	font-size: 30px;
-	font-weight: lighter;
-	padding-bottom: 0px;
-	line-height: 0px;
-	color: #2a3435;
+
+
+
+#news {
+	padding: 10px 50px 0px 50px;
+	text-align: center;
 }
 
 #news .row .box {
@@ -465,10 +482,11 @@ footer .copyright p{
 	color: #2a3435;
 	font-size: 23px;
 	overflow: hidden;
+	border-bottom: 6px solid #5EA8AE;
 }
 #news .row .box:hover {
-	/*background-color: #fdfffb;*/
 	background-color: #dee5e5;
+	border-bottom: 6px solid #3a676b;
 }
 
 #news .row .box {
@@ -481,27 +499,55 @@ footer .copyright p{
 	transition: all 0.4s ease;
 }
 
-#news .row .box h2 {
-
-	/*font-family: Palatino;*/
-	font-family: Lato;
-	font-weight: lighter;
-	font-size: 20px;
-	line-height: 0px;
-}
 
 @media (max-width: 1200px) {
 	#news .row .box {
 		width: 250px;
 		height: 500px;
 	}
+
+}
+
+@media (max-width: 1000px) {
+	#about .aboutImg img {
+		width: 400px;
+	}
+
+
+}
+
+@media (max-width: 800px) {
+	#about {
+		display: flex;
+		flex-direction: column;
+		float: none;
+		text-align: center;
+
+	}
+	#about .aboutImg {
+		padding: 0 0 0 0px;
+	}
+
+	#about .aboutImg img {
+		width: 400px;
+	}
+	#about 	.aboutText {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		float: none;
+
+		justify-content: center;
+		padding: 40px 50px 40px 50px;
+	}
+
+
+
+
 }
 
 
-
-
-
-	/***************** Personnel Pages *******************/
+/***************** Personnel Pages *******************/
 
 
 .photo {
@@ -581,7 +627,9 @@ article {
 }
 
 @media (max-width: 800px){
-
+	.top h1 {
+		margin-top: 10px;
+	}
 	.top {
 		display: flex;
 		flex-direction: column;
@@ -638,7 +686,6 @@ article {
 .people .row {
 	text-align: center;
 }
-
 
 .people .label {
 	width: 250px;
@@ -747,5 +794,7 @@ the mouse over it (hover) */
 	background-color: white;
 }
 
+
+/****************** Publications/Press pages ******************/
 
 
