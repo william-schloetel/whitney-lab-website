@@ -8,6 +8,8 @@ body {
 	background-size: cover;
 }
 
+/******************************************************************************************************/
+
 /* Top portion of webpage
 
 	navbar
@@ -32,7 +34,10 @@ body {
 
 
 	 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- */
+
+/*****************************************************************************************************/
+
+button:focus {outline:0;}
 
 a {
 	text-decoration: none;
@@ -73,6 +78,7 @@ h4 {
 	padding-top: 90px;
 	padding-bottom: 40px;
 	background: #ebf3f4;
+	/*text-align: center;*/
 }
 
 .top h1 {
@@ -100,7 +106,9 @@ h4 {
 	color: #5F9BBF;
 }
 
-/**************** Responsive Navbar ******************/
+/*****************************************************************************************************/
+/************************************** Responsive Navbar ********************************************/
+/*****************************************************************************************************/
 
 header{
 	position: fixed;
@@ -146,7 +154,7 @@ header nav ul li a {
 	font-weight: lighter;
 	text-decoration: none;
 	text-transform: uppercase;
-	height:50px;
+	height: 50px;
 	line-height: 60px;
 	padding: 0 15px;
 	display: block;
@@ -233,8 +241,9 @@ a {
 
 }
 
-/***************** Responsive Footer ****************/
-
+/*****************************************************************************************************/
+/************************************* Responsive Footer *********************************************/
+/*****************************************************************************************************/
 
 footer {
 	text-align: left;
@@ -346,8 +355,9 @@ footer .copyright p{
 	}	
 }
 
-
-/***************** Home Page *******************/
+/*****************************************************************************************************/
+/****************************************** Home Page ************************************************/
+/*****************************************************************************************************/
 
 /* Showcase */ 
 #showcase {
@@ -535,9 +545,9 @@ footer .copyright p{
 	}
 }
 
-
-/***************** Personnel Pages *******************/
-
+/*****************************************************************************************************/
+/**************************************** Personnel Pages ********************************************/
+/*****************************************************************************************************/
 
 .photo {
 	padding-bottom: 0px;
@@ -609,11 +619,7 @@ footer .copyright p{
 	font-size: 20px;
 }
 
-article {
-	background: #ebf3f4;
-	margin: 50px;
-	padding: 50px 50px 50px 50px;
-}
+
 
 @media (max-width: 800px){
 	.top h1 {
@@ -644,9 +650,9 @@ article {
 }
 
 
-
-/***************** People Page *******************/
-
+/*****************************************************************************************************/
+/****************************************** People Page **********************************************/
+/*****************************************************************************************************/
 
 .lab_photo {
 	padding: 100px 10px 100px 10px;
@@ -708,9 +714,9 @@ article {
 	transition: all 0.4s ease;
 }
 
-
-/****************** Outreach Page ******************/
-
+/*****************************************************************************************************/
+/**************************************** Outreach Page **********************************************/
+/*****************************************************************************************************/
 .outreach {
 	padding: 90px 100px 50px 100px;
 	background: #ebf3f4;
@@ -786,28 +792,19 @@ the mouse over it (hover) */
 }
 
 
-/****************** Publications/Press pages ******************/
 
 
 
 
 
-
-
-
-
-
-
-
-/**********************  Research Page ************************/
-
+/*****************************************************************************************************/
+/**************************************** Research Page **********************************************/
+/*****************************************************************************************************/
 
 
 	/* Maxwell's Edits */
 
-	/**************************************************
-     ******************** Research ********************
-     *************************************************/
+
 .researchInfo {
 	background-color: #E5F3F2;
 	margin: 1%;
@@ -820,7 +817,7 @@ the mouse over it (hover) */
 	margin-right: auto;
 	width: 95%;
 	height: auto;
-	max-height: 400px;
+	max-height: 500px;
 }
 
 
@@ -831,9 +828,10 @@ the mouse over it (hover) */
 	padding-left: 100px;
 	padding-right: 100px;
 }
+
 .contentBox {
 	padding: 50px;
-	padding-top: 100px;
+	padding-top: 10px;
 	display: flex;
 	flex-direction: column;
 }
@@ -853,7 +851,7 @@ the mouse over it (hover) */
 }
 
 .researchImage img {
-	width: 800px;
+	width: 600px;
 	height: 100%;
 	object-fit: cover;
 }
@@ -863,18 +861,23 @@ the mouse over it (hover) */
 	background: #E5F3F2;
 }
 
+.researchContent .example {
+	text-align: center;
+	padding: 50px 50px 50px 50px;
+}
+
 
 .subtopic {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 }
 
 .subtopic div {
 	padding-right: 50px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
 	#mobileLocalization {
 		background-image: linear-gradient(
 				rgba(0, 0, 0, 0.7),
@@ -903,7 +906,7 @@ the mouse over it (hover) */
 	}
 
 	.researchInfo {
-		color: white;
+		/*color: white;*/
 		margin: 2%;
 		display: flex;
 		flex-direction: row;
@@ -916,6 +919,14 @@ the mouse over it (hover) */
 		max-height: 400px;
 		padding-top: 50px;
 		padding-bottom: 50px;
+	}
+
+	.researchInfo h1 {
+		color: #fdfffb;
+	}
+
+	.researchInfo p {
+		color: #fdfffb;
 	}
 
 	.researchText {
@@ -935,9 +946,12 @@ the mouse over it (hover) */
 		flex-direction: column;
 	}
 
+	.researchInfo a:hover {
+		color:red;
+	}
 
 	.researchInfo a {
-		color: #E5F3F2;
+		color: red;
 		text-decoration: none;
 		-webkit-transition: all 0.4s ease;
 		-moz-transition: all 0.4s ease;
@@ -947,6 +961,127 @@ the mouse over it (hover) */
 	}
 }
 
+/*****************************************************************************************************/
+/********************************* Publications/press pages ******************************************/
+/*****************************************************************************************************/
+
+article {
+	background: #ebf3f4;
+	margin: 50px 0px 50px 0px;
+	padding: 50px 50px 50px 50px;
+	border-left: 6px solid #5EA8AE;
+
+}
+
+.top .pageTitle {
+	text-align: center;
+}
+
+article span {
+	font-family: Lato;
+	font-weight: lighter;
+}
+
+#hiddenYear {
+	display: none;
+}
 
 
 
+.filter {
+	font-family: Lato;
+	font-weight: lighter;
+	margin: 5px 5px 5px 5px;
+	border: 1px solid #3d4b4c;
+	background: #bec9d6;
+	border-radius: 5px;
+	text-align: center;
+	color: #3d4b4c;
+	padding: 10px 20px 10px 20px;
+	font-size: 18px;
+}
+
+.sort {
+	font-family: Lato;
+	font-weight: lighter;
+	margin: 5px 5px 5px 5px;
+	border: 1px solid #3d4b4c;
+	background: #bec9d6;
+	border-radius: 5px;
+	text-align: center;
+	color: #3d4b4c;
+	padding: 10px 20px 10px 20px;
+	font-size: 18px;
+}
+
+.toc {
+	margin-top: 0px;
+}
+
+.filter:hover {
+	background-color: #a8b4c1;
+}
+
+.filter {
+	color: #1F2A2E;
+	text-decoration: none;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.search {
+	width: 100px;
+}
+
+.toc .row {
+	display: flex;
+	width: 90%;
+
+}
+
+.toc .row p{
+
+	padding: 5px 5px 5px 5px;
+
+}
+
+.toc .row {
+
+}
+
+.search {
+	font-family: Lato;
+	font-size: 14px;
+	width: 200px;
+	height: 40px;
+	margin-left: 0px;
+}
+
+.author {
+	font-size: 24px;
+}
+
+.category {
+	display: none;
+}
+.year {
+	font-size: 24px;
+}
+
+.title {
+	font-size: 20px;
+	font-style: italic;
+}
+
+
+@media (max-width: 1000px) {
+	.toc {
+		display: none;
+	}
+	#jumpTo {
+		display: none;
+	}
+}
