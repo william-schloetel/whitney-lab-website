@@ -243,7 +243,6 @@ footer {
 	/*background: linear-gradient(to bottom right, #022a33, #267c4d);*/
 	/*background: linear-gradient(to bottom right, #274f59, #82a4ad);*/
 	background: linear-gradient(to bottom right, #274f59, #5EA8AE);
-
 	overflow: hidden;
 }
 
@@ -265,7 +264,6 @@ footer #address p {
 }
 
 footer #address h5 {
-	/*font-family: FreeMono, serif;*/
 	font-family: Lato;
 	font-size: 25px;
 	color: white;
@@ -434,7 +432,7 @@ footer .copyright p{
 
 
 #about {
-	margin: 0 0 10px 0;
+	margin: 0 0 20px 0;
 	overflow: hidden;
 }
 
@@ -456,23 +454,18 @@ footer .copyright p{
 
 }
 
-
-
 #about .aboutText h2 {
 	text-align: center;
 }
 
-
-
-
 #news {
-	padding: 10px 50px 0px 50px;
+	padding: 0px 50px 30px 50px;
 	text-align: center;
 }
 
 #news .row .box {
 	width: 300px;
-	height: 500px;
+	height: 450px;
 	padding: 30px 20px 35px 20px;
 	margin: 20px 10px 100px 10px;
 	text-align: center;
@@ -503,7 +496,9 @@ footer .copyright p{
 @media (max-width: 1200px) {
 	#news .row .box {
 		width: 250px;
-		height: 500px;
+		height: 450px;
+		margin-top: 0px;
+		margin-bottom: 50px;
 	}
 
 }
@@ -796,5 +791,4 @@ the mouse over it (hover) */
 
 
 /****************** Publications/Press pages ******************/
-
 

@@ -1,87 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Whitney Lab for Preception and Action | Welcome</title>
-  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Whitney Lab for Preception and Action | Welcome</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div class="logo">LOGO</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="people.html">People</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li class = "current"><a href="publications.html">Publications</a></li>
-        <li><a href="press.html">Press</a></li>
-        <li><a href="outreach.html">Outreach</a></li>
-      </ul>
-    </nav>
-    <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>  
-  </header>
+    <header>
+        <div class="logo">LOGO</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li class = "current"><a href="publications.html">Publications</a></li>
+                <li><a href="press.html">Press</a></li>
+                <li><a href="outreach.html">Outreach</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+    </header>
 
 <!--Above portion stays the same for each webpage -->
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Publications</h1>
+    <div class="contentBox" id="allpubs">
+        <input class="search" placeholder="Search publications" id="pubsearch" />
 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+        <div class="filtTitle"><h2>Filter by topic:</h2></div>
+            <div>
+                <button class="filter" id="filter-none">All</button>
+                <button class="filter" id="filter-motion">Motion</button>
+                <button class="filter" id="filter-crowding">Crowding</button>
+                <button class="filter" id="filter-ensemble">Ensemble Perception</button>
+                <button class="filter" id="filter-serial">Serial Dependence</button>
+                <button class="filter" id="filter-attention">Attention</button>
+                <button class="filter" id="filter-localization">Localization</button>
+                <button class="filter" id="filter-motor">Motor Control</button>
+                <button class="filter" id="filter-rival">Perceptual Rivalry</button>
+                <button class="filter" id="filter-dev">Visual Development</button>
+                <button class="filter" id="filter-echo">Echolocation</button>
+                <button class="filter" id="filter-face">Face Perception</button>
+                <button class="filter" id="filter-cross">Cross-Modal Perception</button>
+                <button class="filter" id="filter-aud">Audition</button>
+                <button class="filter" id="filter-mem">Memory</button>
+             <!--Important: When adding a new category, be sure to modify the "filterpubs.js" file-->
 
+             <!--uncomment below to add a new category; replace "mycategory" with the shorthand name for that category;
+             you can use any text for the button (e.g., "My new category"). -->
+             <!--<button class="filter" id="filter-mycategory">My new category</button>-->
+            </div>
 
-    <div class="contentBox" id="allpubs">  
-      <input class="search" placeholder="Search publications" id="pubsearch" />
-     	
-       <div class="filtTitle">Filter by topic: </div>
-       <div>
-        <button class="filter" id="filter-none">All</button>   	
-    	<button class="filter" id="filter-motion">Motion</button>
-        <button class="filter" id="filter-crowding">Crowding</button>
-        <button class="filter" id="filter-ensemble">Ensemble Perception</button> 
-        <button class="filter" id="filter-serial">Serial Dependence</button>
-        <button class="filter" id="filter-attention">Attention</button> 
-        <button class="filter" id="filter-localization">Localization</button>   
-        <button class="filter" id="filter-motor">Motor Control</button>
-        <button class="filter" id="filter-rival">Perceptual Rivalry</button>   
-        <button class="filter" id="filter-dev">Visual Development</button>  
-        <button class="filter" id="filter-echo">Echolocation</button>          
-        <button class="filter" id="filter-face">Face Perception</button> 
-        <button class="filter" id="filter-cross">Cross-Modal Perception</button> 
-        <button class="filter" id="filter-aud">Audition</button>
-        <button class="filter" id="filter-mem">Memory</button>
-         <!--Important: When adding a new category, be sure to modify the "filterpubs.js" file-->
-        
-   		 <!--uncomment below to add a new category; replace "mycategory" with the shorthand name for that category;
-   		 you can use any text for the button (e.g., "My new category"). -->
-         <!--<button class="filter" id="filter-mycategory">My new category</button>-->
-       </div>
-       
-       <div class="filtTitle">Sort publications: </div>
-      <div>
-       <button class="sort" data-sort="author" id="author">By author</button>
-       <button class="sort" data-sort="year" id="year">By year</button>
-       </div><br>
-       <hr noshade="true" color="#9EA6B0" size="1">
-        <div id="jumpTo">Jump to:</div>
+        <div class="filtTitle">Sort publications: </div>
+        <div>
+            <button class="sort" data-sort="author" id="author">By author</button>
+            <button class="sort" data-sort="year" id="year">By year</button>
+        </div>
+
+        <br>
+        <hr noshade="true" color="#9EA6B0" size="1">
+        <div id="jumpTo"><h2>Jump to:</h2></div>
         <div class="toc">
             <div class="row">
-              <a href="#2019">2019</a>
-              <a href="#2018">2018</a>
-            	<a href="#2017">2017</a>
-				      <a href="#2016">2016</a>
-				      <a href="#2015">2015</a>
-				      <a href="#2014">2014</a>
-            	<a href="#2013">2013</a>
-            	<a href="#2012">2012</a>
+                <a href="#2019">2019</a>
+                <a href="#2018">2018</a>
+                <a href="#2017">2017</a>
+                <a href="#2016">2016</a>
+                <a href="#2015">2015</a>
+                <a href="#2014">2014</a>
+                <a href="#2013">2013</a>
+                <a href="#2012">2012</a>
                 <a href="#2011">2011</a>
                 <a href="#2010">2010</a>
                 <a href="#2009">2009</a>
@@ -98,29 +98,26 @@
                 <a href="#2004pre">earlier</a>
             </div> -->
         </div>
-            <!-- To add article: copy template, enter appropriate info, uncomment 
-            <article>
-                <a href="PDFs/PDFfilename.pdf">
-                    <span class="author">Author, A. </span>
-                    <span class="year">(year).</span>
-                    <span class="title">Article Title</span>
-                    <span class="journal">Journal, (print year), Issue #, Page #</span>
-                    <span class="category">mycategory1, mycategory2, mycategory3</span>  use shorthand names
-                    (e.g., "motion","crowding","ensemble")
-                </a>
-            </article>
-            -->
-      <div class="list">  
+        <!-- To add article: copy template, enter appropriate info, uncomment
+        <article>
+            <a href="PDFs/PDFfilename.pdf">
+                <span class="author">Author, A. </span>
+                <span class="year">(year).</span>
+                <span class="title">Article Title</span>
+                <span class="journal">Journal, (print year), Issue #, Page #</span>
+                <span class="category">mycategory1, mycategory2, mycategory3</span>  use shorthand names
+                (e.g., "motion","crowding","ensemble")
+            </a>
+        </article>
+        -->
+        <div class="list">
        
        <!-- uncomment below to add a new year 
          <h2 class="yearHeading" id="2020"><div class="year" id="hiddenYear">(2019).</div>2019</h2> 
             -->
-
-
-         <h2 class="yearHeading" id="2019"><div class="year" id="hiddenYear">(2019).</div>2019</h2> 
+            <h2 class="yearHeading" id="2019"><div class="year" id="hiddenYear">(2019).</div>2019</h2>
           
-
-          <article>
+            <article>
                 <a href="PDFs/Chen.PNAS.2019.pdf">
                     <span class="author">Chen, Z., & Whitney, D. </span>
                     <span class="year">(2019).</span>
@@ -130,48 +127,48 @@
                     "motion","crowding","ensemble") -->
                 </a>
             </article>
-      
-         <h2 class="yearHeading" id="2018"><div class="year" id="hiddenYear">(2018).</div>2018</h2> 
 
-        <article>
-          <a href="PDFs/Piazza_Theunissen_Wessel_Whitney.pdf">
-            <span class="author">Piazza, E.A., Theunissen, F.E., Wessel, D., & Whitney, D. </span>
-            <span class="year">(2018).</span>
-            <span class="title">Rapid Adaptation to the Timbre of Natural Sounds.</span>
-            <span class="journal">Scientific Reports. (2018), 8(1), 13826</span>
-            <span class="category">serial</span> <!-- use shorthand names (e.g., "motion","crowding","ensemble") -->
-          </a>
-        </article>
+            <h2 class="yearHeading" id="2018"><div class="year" id="hiddenYear">(2018).</div>2018</h2>
 
-        <article>
-          
-            <span class="author">Xia, Y., Zhang, D., Kim, J., Zipser, K., Nakayama, K., & Whitney, D. </span>
-            <span class="year">(2018).</span>
-            <span class="title">Predicting Driver Attention in Critical Situations.</span> <br>
-            <span class="journal">Asian Conference on Computer Vision.</span>
-            <span class="category">serial</span> <!-- use shorthand names (e.g., "motion","crowding","ensemble") -->
-    
-        </article>
+            <article>
+                <a href="PDFs/Piazza_Theunissen_Wessel_Whitney.pdf">
+                    <span class="author">Piazza, E.A., Theunissen, F.E., Wessel, D., & Whitney, D. </span>
+                    <span class="year">(2018).</span>
+                    <span class="title">Rapid Adaptation to the Timbre of Natural Sounds.</span>
+                    <span class="journal">Scientific Reports. (2018), 8(1), 13826</span>
+                    <span class="category">serial</span> <!-- use shorthand names (e.g., "motion","crowding","ensemble") -->
+                </a>
+            </article>
 
-        <article>
-          <a href="PDFs/Kanaya_et_al_2018.pdf">
-            <span class="author">Kanaya, S., Hayashi, MJ, & Whitney, D. </span>
-            <span class="year">(2018).</span><br>
-            <span class="title">Exaggerated groups: amplification in ensemble coding of temporal and spatial features.</span><br>
-            <span class="journal">Proceedings of the Royal Society B: Biological Sciences (2018), 285, 20172770. </span>
-            <span class="category">ensemble</span>
-          </a>
-        </article> 
+            <article>
+                <span class="author">Xia, Y., Zhang, D., Kim, J., Zipser, K., Nakayama, K., & Whitney, D. </span>
+                <span class="year">(2018).</span>
+                <span class="title">Predicting Driver Attention in Critical Situations.</span> <br>
+                <span class="journal">Asian Conference on Computer Vision.</span>
+                <span class="category">serial</span> <!-- use shorthand names (e.g., "motion","crowding","ensemble") -->
+            </article>
 
-        <article>
-          <a href="PDFs/Manassi2018FaceSimilarity.pdf">
-            <span class="author">Liberman*, A., Manassi*, M., & Whitney, D. </span>
-            <span class="year">(2018).</span><br>
-            <span class="title">Serial dependence promotes the stability of perceived emotional expression depending on face similarity.</span><br>
-            <span class="journal">Attention, Perception, & Psychophysics (In press). *equal contribution </span>
-            <span class="category">serial</span>
-          </a>
-        </article> 
+            <article>
+                <a href="PDFs/Kanaya_et_al_2018.pdf">
+                    <span class="author">Kanaya, S., Hayashi, MJ, & Whitney, D. </span>
+                    <span class="year">(2018).</span><br>
+                    <span class="title">Exaggerated groups: amplification in ensemble coding of temporal and spatial
+                        features.</span><br>
+                    <span class="journal">Proceedings of the Royal Society B: Biological Sciences (2018), 285, 20172770. </span>
+                    <span class="category">ensemble</span>
+                 </a>
+            </article>
+
+            <article>
+                <a href="PDFs/Manassi2018FaceSimilarity.pdf">
+                    <span class="author">Liberman*, A., Manassi*, M., & Whitney, D. </span>
+                    <span class="year">(2018).</span><br>
+                    <span class="title">Serial dependence promotes the stability of perceived emotional expression depending on
+                        face similarity.</span><br>
+                    <span class="journal">Attention, Perception, & Psychophysics (In press). *equal contribution </span>
+                    <span class="category">serial</span>
+                </a>
+            </article>
 
         <article>
         <a href="PDFs/Chen_et_al-2018-Scientific_Reports.pdf">
@@ -252,7 +249,8 @@
       	  <a href="PDFs/ManassiNature.pdf">            		
             <span class="author">Manassi, M., Liberman, A., Chaney W., & Whitney, D.</span>
             <span class="year">(2017).</span><br>
-            <span class="title">The perceived stability of scenes: serial dependence in ensemble representations.</span><br>
+            <span class="title">The perceived stability of scenes: serial dependence in ensemble
+                representations.</span><br>
             <span class="journal">Nature Scientific Reports. (2017), 7:1971, 1-9.</span>
 	    	<span class="category">serial, ensemble</span>
 	    	</a>
@@ -263,7 +261,8 @@
       		<a href="PDFs/Maus_Whitney_CurrBio.pdf">            		
             <span class="author">Maus, G., Duyck, M., Lisi, M., Collins, T., Whitney, D., & Cavanagh, P.</span>
             <span class="year">(2017).</span><br>
-            <span class="title">Target Displacements during Eye Blinks Trigger Automatic Recalibration of Gaze Direction.</span><br>
+            <span class="title">Target Displacements during Eye Blinks Trigger Automatic Recalibration of Gaze
+                Direction.</span><br>
             <span class="journal">Current Biology. (2017), 27: 1-6. </span>
 	    	<span class="category">motor, localization</span>
 	    	</a>
@@ -273,7 +272,8 @@
       		<a href="PDFs/ZhiminChen_JOV.pdf">            		
             <span class="author">Chen, Z., Maus, G.W., Whitney, D., & Denison, R.N.</span>
             <span class="year">(2017).</span><br>
-            <span class="title">Filling-in rivalry: Perceptual alternations in the absence of retinal image conflict.</span><br>
+            <span class="title">Filling-in rivalry: Perceptual alternations in the absence of retinal image
+                conflict.</span><br>
             <span class="journal">Journal of Vision. (2017), 17(1):8, 1-15. </span>
 	    	<span class="category">rival, localization, attention</span>
 	    	</a>
@@ -283,7 +283,8 @@
             <a href="PDFs/Sweeny_Whitney_Gaze_VR_2017.pdf">
             <span class="author">Sweeny, T. & Whitney, D.</span>
             <span class="year">(2017).</span><br>
-            <span class="title">The center of attention: Metamers, sensitivity, and bias in the emergent perception of gaze.</span><br>
+            <span class="title">The center of attention: Metamers, sensitivity, and bias in the emergent perception
+                of gaze.</span><br>
             <span class="journal">Vision Research. (2017), 131:67-74. </span>
 	    	<span class="category">attention, localization</span>
 	    	</a>
@@ -416,9 +417,11 @@
         
         <article>    
               <a href="PDFs/AYL_JOV_2014.pdf">            		
-            	<span class="author">Yamanashi Leib, A., Fischer, J.T., Liu, Y., Qiu, S., Roberston, L., Whitney, D. </span>
+            	<span class="author">Yamanashi Leib, A., Fischer, J.T., Liu, Y., Qiu, S., Roberston, L., Whitney, D.
+                </span>
                 <span class="year">(2014).</span>          		
-            	<span class="title">Ensemble crowd perception: A viewpoint-invariant mechanism to represent average crowd identity</span>
+            	<span class="title">Ensemble crowd perception: A viewpoint-invariant mechanism to represent average
+                    crowd identity</span>
                 <span class="journal">Journal of Vision. (2014), 14(8):26, 1-13.</span>
 	    		<span class="category">ensemble</span>
             </a>    
@@ -454,7 +457,8 @@
                     <span class="author">Whitney, D., Haberman, J., & Sweeny, T.D. </span>
                     <span class="year">(2014).</span>
                     <span class="title">From textures to crowds: multiple levels of summary statistical perception.</span>
-                    <span class="journal"> The New Visual Neurosciences. Ed. J. S. Wener and L. M. Chalupa. Cambridge: MIT Press, 2014. 695-710.</span>
+                    <span class="journal"> The New Visual Neurosciences. Ed. J. S. Wener and L. M. Chalupa.
+                        Cambridge: MIT Press, 2014. 695-710.</span>
                     <span class="category">ensemble</span>
                 </a>
             </article>
@@ -530,7 +534,8 @@
                 	<a href="PDFs/SweenyWhitneyDevPsych2013.pdf">
                     <span class="author">Sweeny, T.D., Wurnitsch, N., Gopnik, A., & Whitney, D. </span>
                     <span class="year">(2013).</span>
-                    <span class="title">Sensitive perception of a person's direction of walking in 4-year-old children.</span>
+                    <span class="title">Sensitive perception of a person's direction of walking in 4-year-old
+                        children.</span>
                     <span class="journal">Developmental Psychology. (2013), 49(11):2120-4</span>
                     <span class="category">ensemble, motion, dev</span>
                 </a>
@@ -540,7 +545,8 @@
                 <a href="PDFs/Maus_etal_CerebCort_2013.pdf">
                     <span class="author">Maus, G. W., Ward, J., Nijhawan, R., &amp; Whitney, D. </span>
                     <span class="year">(2013).</span>
-                    <span class="title">The Perceived Position of Moving Objects: Transcranial Magnetic Stimulation of Area MT+ Reduces the Flash-Lag Effect</span>
+                    <span class="title">The Perceived Position of Moving Objects: Transcranial Magnetic Stimulation of
+                        Area MT+ Reduces the Flash-Lag Effect</span>
                     <span class="journal">Cerebral Cortex. (2013), 23: 241-247 </span>
                     <span class="category">motion, localization</span>
                 </a>
@@ -553,16 +559,19 @@
                 <a href="PDFs/Fischer_Whitney_NatComm_2012.pdf">
                     <span class="author">Fischer, J.T. &amp; Whitney, D. </span>
                     <span class="year">(2012).</span>
-                    <span class="title">Distractor suppression: Attention gates visual coding in the human pulvinar.</span>
+                    <span class="title">Distractor suppression: Attention gates visual coding in the human
+                        pulvinar.</span>
                     <span class="journal">Nature Communications. (2012), 3: 1051</span>
                     <span class="category">attention</span>
                </a>
             </article>
             <article>
                 <a href="PDFs/Kosovicheva_etal_2012_JOV.pdf">
-                    <span class="author">Kosovicheva, A. A., Maus, G. W., Anstis, S., Cavanagh, P., Tse, P. U., &amp; Whitney, D. </span>
+                    <span class="author">Kosovicheva, A. A., Maus, G. W., Anstis, S., Cavanagh, P., Tse, P. U., &amp;
+                        Whitney, D. </span>
                     <span class="year">(2012).</span>
-                    <span class="title">The motion-induced shift in the perceived location of a grating also shifts its aftereffect.</span>
+                    <span class="title">The motion-induced shift in the perceived location of a grating also shifts its
+                        aftereffect.</span>
                     <span class="journal">Journal of Vision. (2012), 12(8), 1-7.</span>
                     <span class="category">motion</span>
                 </a>
@@ -572,7 +581,8 @@
                 <a href=PDFs/Haroz_Whitney_2012_InfoVis.pdf>
                     <span class="author">Haroz, S. &amp; Whitney, D. </span>
                     <span class="year">(2012).</span>
-                    <span class="title">How Capacity Limits of Attention Influence Information Visualization Effectiveness.</span>
+                    <span class="title">How Capacity Limits of Attention Influence Information Visualization
+                        Effectiveness.</span>
                     <span class="journal">IEEE Transactions on Visualization and Computer Graphics. (2012), 18(12)</span>
                     <span class="category">attention</span>
                 </a>
@@ -590,15 +600,19 @@
                 <a href="PDFs/Sweeny_Haroz_Whitney_2012_JEP.pdf">
                     <span class="author">Sweeny, T., Haroz, S., &amp; Whitney, D. </span>
                     <span class="year">(2012).</span>
-                    <span class="title">Perceiving group behavior: Sensitive ensemble coding mechanisms for biological motion of human crowds.</span>
-                    <span class="journal">Journal of Experimental Psychology: Human Perception and Performance. (2012), 39(2):329-37.</span>
+                    <span class="title">Perceiving group behavior: Sensitive ensemble coding mechanisms for biological
+                        motion of human crowds.</span>
+                    <span class="journal">Journal of Experimental Psychology: Human Perception and Performance. (2012),
+                        39(2):329-37.</span>
                     <span class="category">ensemble, motion</span>
                 </a>
             </article>
 
             <article>
                 <a href="PDFs/Yamanishi_Puri_etal_Neuropsych2011.pdf">
-                    <span class="author">Yamanashi-Leib, A., Puri, M., Fischer, J., Bentin, S., Whitney, D., Robertson, L. </span>
+                    <span class="author">Yamanashi-Leib, A., Puri, M., Fischer, J., Bentin, S., Whitney, D.,
+                        Robertson, L.
+                    </span>
                     <span class="year">(2012).</span>
                     <span class="title">Crowd Perception in Prosopagnosia.</span>
                     <span class="journal">Neuropsychologia. (2012) 50(7):1698-707.</span>
@@ -640,7 +654,8 @@
                 <a href="PDFs/Farzin_Rivera_Whitney_2011_Brain.pdf">
                     <span class="author">Farzin, F., Rivera, S., &amp; Whitney, D. </span>
                     <span class="year">(2011).</span>
-                    <span class="title">Resolution of spatial and temporal visual attention in infants with fragile X syndrome.</span>
+                    <span class="title">Resolution of spatial and temporal visual attention in infants with fragile X
+                        syndrome.</span>
                     <span class="journal">Brain. (2011), 134 (11): 3355-3368.</span>
                     <span class="category">dev, attention</span>
                 </a>
@@ -649,7 +664,8 @@
                 <a href="PDFs/Haberman_Whitney_2011_PBR.pdf">
                     <span class="author">Haberman, J., Whitney, D. </span>
                     <span class="year">(2011).</span>
-                    <span class="title">Efficient summary statistical representation when change localization fails.</span>
+                    <span class="title">Efficient summary statistical representation when change localization
+                        fails.</span>
                     <span class="journal">Psychonomic Bulletin. (2011), 18(5): 855-859.</span>
                     <span class="category">ensemble</span>
                 </a>
@@ -658,7 +674,8 @@
                 <a href="PDFs/Fukiage_Whitney_Murakami_2011_JoV.pdf">
                     <span class="author">Fukiage, T., &amp; Whitney, D., Murakami, I. </span>
                     <span class="year">(2011).</span>
-                    <span class="title">A flash-drag effect in random motion reveals involvement of preattentive motion processing.</span>
+                    <span class="title">A flash-drag effect in random motion reveals involvement of preattentive motion
+                        processing.</span>
                     <span class="journal">Journal of Vision. (2011) 11(13):12, 1–13.</span>
                     <span class="category">motion</span>
                 </a>
@@ -694,7 +711,8 @@
                 <a href="PDFs/Whitney_Levi_2011_TICS.pdf">
                     <span class="author">Whitney, D. &amp; Levi, D. </span>
                     <span class="year">(2011).</span>
-                    <span class="title">Visual Crowding: a fundamental limit on conscious perception and object recognition.</span>
+                    <span class="title">Visual Crowding: a fundamental limit on conscious perception and object
+                        recognition.</span>
                     <span class="journal">Trends in Cognitive Sciences. (2011), 15(4): 160-168.</span>
                     <span class="category">crowding</span>
                 </a>
@@ -721,7 +739,8 @@
                 <a href="PDFs/Bulakowski_Post_Whitney_2011_APP.pdf">
                     <span class="author">Bulakowski, P., Post, R., &amp; Whitney, D. </span>
                     <span class="year">(2011).</span>
-                    <span class="title">Reexamining the possible benefits of visual crowding: Dissociating crowding from ensemble percepts.</span>
+                    <span class="title">Reexamining the possible benefits of visual crowding: Dissociating crowding from
+                        ensemble percepts.</span>
                     <span class="journal">Attention, Perception, and Psychophysics. (2011), 73(4): 1003-9.</span>
                     <span class="category">ensemble, crowding</span>
                 </a>
@@ -739,7 +758,8 @@
                 <a href="PDFs/Teng_Whitney_2011_JVIB.pdf">
                     <span class="author">Teng, S., &amp; Whitney, D. </span>
                     <span class="year">(2011).</span>
-                    <span class="title">The acuity of echolocation: Spatial resolution in sighted persons compared to the performance of an expert who is blind.</span>
+                    <span class="title">The acuity of echolocation: Spatial resolution in sighted persons compared to
+                        the performance of an expert who is blind.</span>
                     <span class="journal">Journal of Visual Impairment and Blindness. (2011), 105(1):20-32.</span>
                     <span class="category">echo</span>
                 </a>
@@ -757,8 +777,10 @@
             	<a href="/PDFs/Ensemble_Perception_Haberman_Whitney.pdf">
                     <span class="author">Haberman, J. &amp; Whitney, D. </span>
                     <span class="year">(2011).</span>
-                    <span class="title">Ensemble perception: Summarizing the scene and broadening the limits of visual processing. </span>
-                    <span class="journal">A Festschrift in honor of Anne Treisman, Wolfe, J &amp; Robertson, L., (Eds). (2011)</span>
+                    <span class="title">Ensemble perception: Summarizing the scene and broadening the limits of visual
+                        processing. </span>
+                    <span class="journal">A Festschrift in honor of Anne Treisman, Wolfe, J &amp; Robertson, L., (Eds).
+                        (2011)</span>
                     <span class="category">ensemble</span>
              	</a>
              </article>
@@ -770,7 +792,8 @@
                     <span class="author">Whitney, D., Murakami, I., &amp; Gomi, H. </span>
                     <span class="year">(2010).</span>
                     <span class="title">The utility of visual motion for goal directed reaching.</span>
-                    <span class="journal">Space and time in perception and action. Eds Nijhawan &amp; Khurana. Cambridge: Cambridge University Press.</span>
+                    <span class="journal">Space and time in perception and action. Eds Nijhawan &amp; Khurana. Cambridge:
+                        Cambridge University Press.</span>
                     <span class="category">motion, motor</span>
                 </a>
             </article>
@@ -778,7 +801,8 @@
                 <a href="PDFs/Haberman_Whitney_2010_APP.pdf">
                     <span class="author">Haberman, J. &amp; Whitney, D. </span>
                     <span class="year">(2010).</span>
-                    <span class="title">The visual system discounts emotional deviants when extracting average expression.</span>
+                    <span class="title">The visual system discounts emotional deviants when extracting average
+                        expression.</span>
                     <span class="journal">Attention, Perception, and Psychophysics. (2010), 72(7): 1825-38.</span>
                     <span class="category">ensemble, face</span>
                 </a>
@@ -863,7 +887,8 @@
                     <span class="author">Haberman, J. &amp; Whitney, D. </span>
                     <span class="year">(2009).</span>
                     <span class="title">Seeing the mean: Ensemble coding for sets of faces.</span>
-                    <span class="journal">Journal of Experimantal Psychology: Human Perception &amp; Performance. (2009), 35(3):718-34.</span>
+                    <span class="journal">Journal of Experimantal Psychology: Human Perception &amp; Performance. (2009),
+                        35(3):718-34.</span>
                     <span class="category">ensemble, face</span>
                 </a>
             </article>
@@ -892,7 +917,8 @@
                 <a href="PDFs/Hancock_et al_2008_JoV.pdf">
                     <span class="author">Hancock, S., Whitney, D., &amp; Andrews, T. </span>
                     <span class="year">(2008).</span>
-                    <span class="title">The initial interactions underlying binocular rivalry require visual awareness.</span>
+                    <span class="title">The initial interactions underlying binocular rivalry require visual
+                        awareness.</span>
                     <span class="journal">Journal of Vision. (2008), 8(1):3. 1-9.</span>
                     <span class="category">attention</span>
                 </a>
@@ -919,7 +945,8 @@
                 <a href="PDFs/Whitney_et al_2008_CurrBio.pdf">
                     <span class="author">Whitney, D., Wurnitsch, N., Hontiveros, B., &amp; Louie, E. </span>
                     <span class="year">(2008).</span>
-                    <span class="title">Perceptual mislocalization of bouncing balls by professional tennis referees.</span>
+                    <span class="title">Perceptual mislocalization of bouncing balls by professional tennis
+                        referees.</span>
                     <span class="journal">Current Biology. (2008). 18(20): R947-R949.</span>
                     <span class="category">localization</span>
                 </a>
@@ -931,7 +958,8 @@
                 <a href="PDFs/Bressler_Spotswood_Whitney_2007_PLoSONE.pdf">
                     <span class="author">Bressler, D., Spotswood, N., &amp; Whitney, D. </span>
                     <span class="year">(2007).</span>
-                    <span class="title">Negative BOLD fMRI response in the Visual Cortex carries precise Stimulus-Specific information.</span>
+                    <span class="title">Negative BOLD fMRI response in the Visual Cortex carries precise Stimulus-Specific
+                        information.</span>
                     <span class="journal">PLoS ONE. 2(5): e410.</span>
                     <span class="category">localization</span>
                 </a>
@@ -949,7 +977,8 @@
                 <a href="PDFs/Bulakowski_Koldewyn_Whitney_VR_2007.pdf">
                     <span class="author">Bulakowski, P.F., Koldewyn, K., &amp; Whitney, D. </span>
                     <span class="year">(2007).</span>
-                    <span class="title">Independent coding of object motion and position revealed by distinct contingent aftereffects.</span>
+                    <span class="title">Independent coding of object motion and position revealed by distinct contingent
+                        aftereffects.</span>
                     <span class="journal">Vision Research. (2007), 47(6): 810-817.</span>
                     <span class="category">motion</span>
                 </a>
@@ -967,7 +996,8 @@
                 <a href="PDFs/Harp_Bressler_Whitney_2007_JoV.pdf">
                     <span class="author">Harp, T., Bressler, D., &amp; Whitney, D. </span>
                     <span class="year">(2007).</span>
-                    <span class="title">Position shifts following crowded second order motion adaptation reveal processing of local and global motion without awareness.</span>
+                    <span class="title">Position shifts following crowded second order motion adaptation reveal
+                        processing of local and global motion without awareness.</span>
                     <span class="journal">Journal of Vision. (2007), 7(2):15. 1-13.</span>
                     <span class="category">motion</span>
                 </a>
@@ -976,7 +1006,8 @@
                 <a href="PDFs/Louie_Bressler_Whitney_2007_JoV.pdf">
                     <span class="author">Louie, E., Bressler, D., &amp; Whitney, D. </span>
                     <span class="year">(2007).</span>
-                    <span class="title">Holistic crowding: selective interference between configural representations of faces in crowded scenes.</span>
+                    <span class="title">Holistic crowding: selective interference between configural representations of
+                        faces in crowded scenes.</span>
                     <span class="journal">Journal of Vision. (2007), 7(2):24. 1-11.</span>
                     <span class="category">crowding, face</span>
                 </a>
@@ -985,14 +1016,16 @@
                 <a href="PDFs/WhitneyBressler_2007_VR.pdf">
                     <span class="author">Whitney, D. &amp; Bressler, D.W. </span>
                     <span class="year">(2007).</span>
-                    <span class="title">Second-order motion without awareness: passive adaptation to second-order motion produces a motion aftereffect.</span>
+                    <span class="title">Second-order motion without awareness: passive adaptation to second-order motion
+                        produces a motion aftereffect.</span>
                     <span class="journal">Vision Research. (2007), 47(4): 569-579.</span>
                     <span class="category">motion</span>
                 </a>
             </article>
             <article>
                 <a href="PDFs/Whitney_et al_2007_CerCortex.pdf">
-                    <span class="author">Whitney, D., Ellison, A., Rice, N.J., Arnold, D., Goodale, M., Walsh, V., &amp; Milner, D. </span>
+                    <span class="author">Whitney, D., Ellison, A., Rice, N.J., Arnold, D., Goodale, M., Walsh, V., &amp;
+                        Milner, D. </span>
                     <span class="year">(2007).</span>
                     <span class="title">Visually Guided Reaching Depends on Motion Area MT+.</span>
                     <span class="journal">Cerebral Cortex. (2007), 17(11):24. 2644-2649</span>
@@ -1006,7 +1039,8 @@
                 <a href="PDFs/WhitneyBressler_2006_VR.pdf">
                     <span class="author">Whitney, D. &amp; Bressler, D.W. </span>
                     <span class="year">(2006).</span>
-                    <span class="title">Spatially asymmetric response to moving patterns in the visual cortex: Re-examining the local sign hypothesis.</span>
+                    <span class="title">Spatially asymmetric response to moving patterns in the visual cortex:
+                        Re-examining the local sign hypothesis.</span>
                     <span class="journal">Vision Research. (2006), 47(1): 50-59.</span>
                     <span class="category">localization</span>
                 </a>
@@ -1024,8 +1058,10 @@
                 <a href="PDFs/Whitney_2006_JEP.pdf">
                     <span class="author">Whitney, D. </span>
                     <span class="year">(2006).</span>
-                    <span class="title">Contribution of bottom-up and top-down motion processes to perceived position.</span>
-                    <span class="journal">Journal of Experimantal Psychology: Human Perception &amp; Performance. (2006), 32(6): 1380-1397.</span>
+                    <span class="title">Contribution of bottom-up and top-down motion processes to perceived
+                        position.</span>
+                    <span class="journal">Journal of Experimantal Psychology: Human Perception &amp; Performance.
+                        (2006), 32(6): 1380-1397.</span>
                     <span class="category">motion, localization</span>
                 </a>
             </article>
@@ -1035,7 +1071,8 @@
             <article>
                     <span class="author">Arnold, D. &amp; Whitney, D. </span>
                     <span class="year">(2005).</span>
-                    <span class="title">Adaptation and perceptual binding in sight and sound In, Fitting the Mind to the World: Adaptation and Aftereffects in High-Level Vision.</span>
+                    <span class="title">Adaptation and perceptual binding in sight and sound In, Fitting the Mind to
+                        the World: Adaptation and Aftereffects in High-Level Vision.</span>
                     <span class="journal">Clifford, C. &amp; Rhodes, G. (Eds.).</span>
                     <span class="category">localization,cross</span>
             </article>
@@ -1074,16 +1111,19 @@
                 <a href="PDFs/Whitney_Cavanagh_2003_P&P.pdf">
                     <span class="author">Whitney, D. &amp; Cavanagh, P. </span>
                     <span class="year">(2003).</span>
-                    <span class="title">Motion adaptation shifts apparent position without the motion aftereffect.</span>
+                    <span class="title">Motion adaptation shifts apparent position without the motion
+                        aftereffect.</span>
                     <span class="journal">Perception &amp; Psychophys. (2003), 65(7): 1011-1018.</span>
                     <span class="category">motion, localization</span>
                 </a>
             </article>
             <article>
                 <a href="PDFs/Whitney_et al_2003_Science.pdf">
-                    <span class="author">Whitney, D., Goltz, H.C., Thomas, C.G., Gati, J.S., Menon, R.S., &amp; Goodale, M.A. </span>
+                    <span class="author">Whitney, D., Goltz, H.C., Thomas, C.G., Gati, J.S., Menon, R.S., &amp; Goodale,
+                        M.A. </span>
                     <span class="year">(2003).</span>
-                    <span class="title">Flexible retinotopy: motion-dependent position coding in the visual cortex.</span>
+                    <span class="title">Flexible retinotopy: motion-dependent position coding in the visual
+                        cortex.</span>
                     <span class="journal">Science. (2003), 302(5646): 878-881.</span>
                     <span class="category">motion, localization</span>
                 </a>
@@ -1092,7 +1132,8 @@
                 <a href="PDFs/Whitney_et al_2003a_Nature.pdf">
                     <span class="author">Whitney, D., Westwood, D.A., &amp; Goodale, M.A. </span>
                     <span class="year">(2003).</span>
-                    <span class="title">The influence of visual motion on fast reaching movements to a stationary object.</span>
+                    <span class="title">The influence of visual motion on fast reaching movements to a stationary
+                        object.</span>
                     <span class="journal">Nature. (2003), 423(6942): 869-873.</span>
                     <span class="category">motion, motor</span>
                 </a>
@@ -1129,7 +1170,8 @@
                 <a href="PDFs/Whitney_Cavanagh_2000_NatNeuro.pdf">
                     <span class="author">Whitney, D. &amp; Cavanagh, P. </span>
                     <span class="year">(2000).</span>
-                    <span class="title">Motion distorts visual space: shifting the perceived position of remote stationary objects.</span>
+                    <span class="title">Motion distorts visual space: shifting the perceived position of remote
+                        stationary objects.</span>
                     <span class="journal">Nature Neuroscience. (2000), 3(9): 954-959.</span>
                     <span class="category">motion, localization</span>
                 </a>
@@ -1138,7 +1180,8 @@
                 <a href="PDFs/WhitneyCavanaghMurakami_2000_VR.pdf">
                     <span class="author">Whitney, D., Cavanagh, P., &amp; Murakami, I. </span>
                     <span class="year">(2000).</span>
-                    <span class="title">Temporal facilitation for moving stimuli is independent of changes in direction.</span>
+                    <span class="title">Temporal facilitation for moving stimuli is independent of changes in
+                        direction.</span>
                     <span class="journal">Vision Research. (2000), 40(28): 3829-39.</span>
                     <span class="category">motion</span>
                 </a>
@@ -1147,7 +1190,8 @@
                 <a href="PDFs/WhitneyMurakamiCavanagh_2000.pdf">
                     <span class="author">Whitney, D., Murakami, I., &amp; Cavanagh, P. </span>
                     <span class="year">(2000).</span>
-                    <span class="title">Illusory spatial offset of a flash  relative to a moving stimulus is caused by differential latencies for moving and flashed stimuli.</span>
+                    <span class="title">Illusory spatial offset of a flash  relative to a moving stimulus is caused
+                        by differential latencies for moving and flashed stimuli.</span>
                     <span class="journal">Vision Research. (2000), 40(2): 137-149.</span>
                     <span class="category">motion</span>
                 </a>

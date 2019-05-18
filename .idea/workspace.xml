@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72f83db7-0751-41c3-8d55-a095abd9dc8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people.html" beforeDir="false" afterPath="$PROJECT_DIR$/people.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/allison.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/allison.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/billy.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/billy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/dave.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/dave.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/erv.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/erv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/ken.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/ken.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/mauro.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/mauro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/william.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/william.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/ye.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/ye.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/yuki.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/yuki.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/zhimin.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/zhimin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people/zixuan.html" beforeDir="false" afterPath="$PROJECT_DIR$/people/zixuan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press.html" beforeDir="false" afterPath="$PROJECT_DIR$/press.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,17 +20,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="475" column="24" lean-forward="true" selection-start-line="475" selection-start-column="24" selection-end-line="475" selection-end-column="24" />
+            <state relative-caret-position="328">
+              <caret line="794" selection-start-line="794" selection-end-line="794" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/people.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/publications.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1920">
+              <caret line="170" column="22" lean-forward="true" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/press.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/outreach.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-144">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="28" />
+            <state relative-caret-position="-74">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
         </entry>
@@ -73,8 +97,6 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/research.html" />
         <option value="$PROJECT_DIR$/outreach_info.html" />
-        <option value="$PROJECT_DIR$/publications.html" />
-        <option value="$PROJECT_DIR$/press.html" />
         <option value="$PROJECT_DIR$/outreach.html" />
         <option value="$PROJECT_DIR$/people.html" />
         <option value="$PROJECT_DIR$/people/allison.html" />
@@ -88,16 +110,17 @@
         <option value="$PROJECT_DIR$/people/yuki.html" />
         <option value="$PROJECT_DIR$/people/zhimin.html" />
         <option value="$PROJECT_DIR$/people/zixuan.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/press.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/publications.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="115" />
-    <option name="width" value="1254" />
-    <option name="height" value="760" />
+    <option name="y" value="39" />
+    <option name="width" value="1261" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,12 +225,12 @@
       <workItem from="1557719424725" duration="839000" />
       <workItem from="1557891004976" duration="515000" />
       <workItem from="1558121724421" duration="7935000" />
-      <workItem from="1558130256120" duration="3306000" />
+      <workItem from="1558130256120" duration="6442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107348000" />
+    <option name="totallyTimeSpent" value="110484000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,10 +242,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="115" width="1254" height="760" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="39" width="1261" height="777" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18815896" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18709677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -234,7 +256,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932332" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35179642" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.54452556" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32932332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -263,34 +285,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/outreach_info.html" />
-    <entry file="file://$PROJECT_DIR$/publications.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="1214" selection-start-line="1214" selection-end-line="1214" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/press.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/outreach.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/people.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/people/allison.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -368,17 +362,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="475" column="24" lean-forward="true" selection-start-line="475" selection-start-column="24" selection-end-line="475" selection-end-column="24" />
+        <state relative-caret-position="-74">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="28" />
+        <state relative-caret-position="328">
+          <caret line="794" selection-start-line="794" selection-end-line="794" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/people.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outreach.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publications.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="170" column="22" lean-forward="true" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/press.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
         </state>
       </provider>
     </entry>
