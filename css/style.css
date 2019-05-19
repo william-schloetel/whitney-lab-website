@@ -471,6 +471,10 @@ footer .copyright p{
 	text-align: center;
 }
 
+#news .row .box p {
+	text-align: left;
+}
+
 #news .row .box {
 	width: 300px;
 	height: 450px;
@@ -508,15 +512,12 @@ footer .copyright p{
 		margin-top: 0px;
 		margin-bottom: 50px;
 	}
-
 }
 
 @media (max-width: 1000px) {
 	#about .aboutImg img {
 		width: 400px;
 	}
-
-
 }
 
 @media (max-width: 800px) {
@@ -527,6 +528,7 @@ footer .copyright p{
 		text-align: center;
 
 	}
+
 	#about .aboutImg {
 		padding: 0 0 0 0px;
 	}
@@ -595,7 +597,7 @@ footer .copyright p{
 }
 
 .research {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .research h2 {
@@ -617,6 +619,12 @@ footer .copyright p{
 	font-weight: lighter;
 
 	font-size: 20px;
+}
+
+
+.publications {
+	margin-top: 0px;
+	padding: 0px 50px 70px 50px;
 }
 
 
@@ -713,6 +721,7 @@ footer .copyright p{
 	-o-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
+
 
 /*****************************************************************************************************/
 /**************************************** Outreach Page **********************************************/
@@ -967,7 +976,7 @@ the mouse over it (hover) */
 
 article {
 	background: #ebf3f4;
-	margin: 50px 0px 50px 0px;
+	margin: 20px 0px 20px 0px;
 	padding: 50px 50px 50px 50px;
 	border-left: 6px solid #5EA8AE;
 
@@ -1061,19 +1070,23 @@ article span {
 }
 
 .author {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .category {
 	display: none;
 }
 .year {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .title {
-	font-size: 20px;
+	font-size: 18px;
 	font-style: italic;
+}
+
+.journal {
+	font-size: 15px;
 }
 
 
