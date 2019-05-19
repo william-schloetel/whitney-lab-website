@@ -6,6 +6,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	overflow: hidden;
 }
 
 /******************************************************************************************************/
@@ -745,8 +746,7 @@ footer .copyright p{
 }
 
 #FAQ h2 {
-	font-family: Lato;
-	font-weight: lighter;
+
 	margin-left: 50px;
 }
 
@@ -773,7 +773,6 @@ footer .copyright p{
 	margin-left: 50px;
 	text-align: left;
 	outline: none;
-	font-size: 18px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move
@@ -794,7 +793,6 @@ the mouse over it (hover) */
 .dropdown {
 	margin-left: 100px;
 	width: 70%;
-	font-size: 20px;
 	display: none;
 	overflow: hidden;
 	background-color: white;
