@@ -644,6 +644,10 @@ footer .copyright p{
 
 
 @media (max-width: 800px){
+	.research p {
+		text-align: justify;
+	}
+
 	.top h1 {
 		margin-top: 10px;
 	}
@@ -668,6 +672,8 @@ footer .copyright p{
 		float: bottom;
 		order: 2;
 	}
+
+
 
 }
 
