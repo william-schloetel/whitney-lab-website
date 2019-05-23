@@ -6,7 +6,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 /******************************************************************************************************/
@@ -353,7 +353,17 @@ footer .copyright p{
 		float: none;
 		padding-top: 20px;
 		padding-bottom: 20px;
-	}	
+	}
+
+
+	footer .copyright {
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer .copyright p {
+		margin: 5px 0 5px 0;
+	}
 }
 
 /*****************************************************************************************************/
@@ -468,7 +478,7 @@ footer .copyright p{
 }
 
 #news {
-	padding: 0px 50px 30px 50px;
+	/*padding: 0px 50px 30px 50px;*/
 	text-align: center;
 }
 
@@ -535,16 +545,19 @@ footer .copyright p{
 	}
 
 	#about .aboutImg img {
-		width: 400px;
+		width: 300px;
 	}
-	#about 	.aboutText {
+	#about .aboutText {
 		text-align: center;
 		display: flex;
 		flex-direction: column;
 		float: none;
+		text-align: justify;
 
 		justify-content: center;
-		padding: 40px 50px 40px 50px;
+		/*padding: 40px 50px 40px 50px;*/
+		padding: 20px 30px 20px 30px;
+		margin: 0 0 0 0;
 	}
 }
 
@@ -695,7 +708,7 @@ footer .copyright p{
 }
 
 .people .label {
-	width: 250px;
+	width: 230px;
 	height: 350px;
 	padding: 30px 20px 35px 20px;
 	margin: 20px 20px 20px 20px;
@@ -742,11 +755,10 @@ footer .copyright p{
 }
 
 #outreachInfo{
-	padding: 30px 100px 20px 50px;
+	padding: 30px 50px 20px 50px;
 }
 
 #FAQ h2 {
-
 	margin-left: 50px;
 }
 
@@ -791,14 +803,62 @@ the mouse over it (hover) */
 }
 
 .dropdown {
-	margin-left: 100px;
+	margin-left: 15%;
 	width: 70%;
 	display: none;
 	overflow: hidden;
 	background-color: white;
 }
 
+@media (max-width: 800px) {
+	.outreach {
+		padding-right: 30px;
+		padding-left: 30px;
+		text-align: center;
+	}
 
+	#outreachInfo {
+		text-align: justify;
+	}
+
+	.collapsible {
+		margin: 0;
+	}
+
+	.dropdown {
+		/*margin-left: 15%;*/
+		text-align: left;
+
+	}
+
+	#FAQ h2 {
+		margin: 20px;
+	}
+
+	#FAQ {
+		padding: 0;
+		text-align: center;
+	}
+
+	#modules h2 {
+		margin-left: 0;
+	}
+
+	#modules {
+		padding: 0;
+		text-align: center;
+	}
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
@@ -822,9 +882,9 @@ the mouse over it (hover) */
 	overflow: hidden;
 	margin-left: auto;
 	margin-right: auto;
-	width: 95%;
-	height: auto;
-	max-height: 500px;
+	width: 100%;
+	height: 400px;
+	max-height: 700px;
 }
 
 
@@ -870,7 +930,7 @@ the mouse over it (hover) */
 
 .researchContent .example {
 	text-align: center;
-	padding: 50px 50px 50px 50px;
+	padding: 50px 20px 50px 20px;
 }
 
 
@@ -884,7 +944,7 @@ the mouse over it (hover) */
 	padding-right: 50px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1150px) {
 	#mobileLocalization {
 		background-image: linear-gradient(
 				rgba(0, 0, 0, 0.7),
@@ -921,15 +981,19 @@ the mouse over it (hover) */
 		overflow: hidden;
 		margin-left: auto;
 		margin-right: auto;
-		width: 95%;
+		width: 100%;
 		height: auto;
-		max-height: 400px;
+		/*max-height: 400px;*/
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
 
 	.researchInfo h1 {
 		color: #fdfffb;
+	}
+
+	.researchContent {
+		padding: 30px;
 	}
 
 	.researchInfo p {
@@ -940,8 +1004,8 @@ the mouse over it (hover) */
 		text-align: center;
 		margin: auto;
 		width: 100%;
-		padding-left: 75px;
-		padding-right: 75px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 
 	.researchImage img {
@@ -950,6 +1014,7 @@ the mouse over it (hover) */
 
 	.subtopic {
 		display: flex;
+		text-align: justify;
 		flex-direction: column;
 	}
 
@@ -966,6 +1031,27 @@ the mouse over it (hover) */
 		-o-transition: all 0.4s ease;
 		transition: all 0.4s ease;
 	}
+}
+
+@media (max-width: 500px) {
+	.contentBox {
+		padding: 30px;
+
+	}
+
+	.contentBox h1 {
+		font-size: 34px;
+	}
+
+	.contentBox p {
+		font-size: 16px;
+	}
+
+	.researchText {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
 }
 
 /*****************************************************************************************************/
